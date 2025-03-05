@@ -1,0 +1,20 @@
+/* Warna untuk semua card header */
+.card-header {
+  background-color: #003366 !important; /* Biru DISHUB */
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Warna untuk semua tombol hijau */
+.btn-success {
+  background-color: #FFD700 !important; /* Emas DISHUB */
+  border-color: #FFD700 !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: #FFC107 !important; /* Emas lebih cerah saat hover */
+  border-color: #FFC107 !important;
+}

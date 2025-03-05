@@ -1,0 +1,84 @@
+/* Gaya dasar untuk FullCalendar */
+#calendar {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header kalender */
+.fc-toolbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tombol navigasi kalender */
+.fc-button {
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 5px 10px !important;
+}
+
+.fc-button:hover {
+    background-color: #0056b3 !important;
+}
+
+/* Hari saat ini ditandai dengan warna biru */
+.fc-day-today {
+    background-color: #cce5ff !important;
+}
+
+/* Event yang ditampilkan */
+.fc-event {
+    border-radius: 5px !important;
+    padding: 5px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+/* Warna untuk event dengan status berbeda */
+.fc-event-pending {
+    background-color: #ffc107 !important;
+    color: black !important;
+}
+
+.fc-event-approved {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.fc-event-rejected {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* Tampilan untuk hari Sabtu dan Minggu */
+.fc-day-sat {
+    background-color: #e0f7fa !important;
+}
+
+.fc-day-sun {
+    background-color: #ffebee !important;
+}
+
+/* Tampilan untuk modal input event */
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Tombol modal */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
