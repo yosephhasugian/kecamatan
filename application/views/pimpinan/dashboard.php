@@ -57,7 +57,46 @@
 
 <div class="container">
     <div class="table-container">
-        <h3><i class="fas fa-chart-line"></i> LAPORAN KINERJA PETUGAS</h3>
+        <h3 class="text-center"><i class="fas fa-chart-line"></i> LAPORAN KINERJA PETUGAS</h3>
+
+        <!-- Tampilkan periode hanya jika user sudah memilih -->
+        <?php if (!empty($periode)) : ?>
+            <p><strong>Periode:</strong> <?= $periode; ?></p>
+        <?php endif; ?>
+
+        <hr>
+
+        <h4><i class="fas fa-clipboard-list"></i> Pilih Bulan dan Tahun </h4>
+        <form method="GET" action="<?= base_url('pimpinan'); ?>" class="mb-3">
+    <div class="row">
+        <div class="col-md-3">
+            <select name="bulan" class="form-control">
+                <option value="">Pilih Bulan</option>
+                <?php 
+                for ($i = 1; $i <= 12; $i++) {
+                    $selected = (isset($_GET['bulan']) && $_GET['bulan'] == $i) ? 'selected' : '';
+                    echo "<option value='$i' $selected>" . date('F', mktime(0, 0, 0, $i, 1)) . "</option>";
+                }
+                ?>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <select name="tahun" class="form-control">
+                <option value="">Pilih Tahun</option>
+                <?php
+                $tahun_sekarang = date('Y');
+                for ($i = $tahun_sekarang - 3; $i <= $tahun_sekarang; $i++) {
+                    $selected = (isset($_GET['tahun']) && $_GET['tahun'] == $i) ? 'selected' : '';
+                    echo "<option value='$i' $selected>$i</option>";
+                }
+                ?>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Tampilkan</button>
+        </div>
+    </div>
+</form>
 
         <div class="table-responsive">
             <table id="tabelKinerja" class="table table-hover table-bordered display nowrap">

@@ -7,22 +7,23 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <style>
-        body { background-color: #f4f7fc; }
+        body { background-color: #eef2f7; font-family: Arial, sans-serif; }
         .container { margin-top: 30px; }
-        .table-container { background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); }
+        .table-container { background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
         .table thead { background-color: #007bff; color: white; }
-        .table tbody tr:hover { background-color: #f1f1f1; }
-        .img-preview { max-width: 120px; height: 120px; border-radius: 5px; object-fit: cover; }
-        .status-badge { padding: 5px 10px; border-radius: 5px; font-weight: bold; }
+        .table tbody tr:hover { background-color: #f8f9fa; }
+        .img-preview { max-width: 100px; height: 100px; border-radius: 5px; object-fit: cover; }
+        .status-badge { padding: 6px 12px; border-radius: 20px; font-weight: bold; }
         .status-disetujui { background-color: #28a745; color: white; }
-        .status-pending { background-color: #ffc107; color: black; }
+        .status-pending { background-color: #ff9800; color: white; }
         .status-ditolak { background-color: #dc3545; color: white; }
-        .header-container { display: flex; justify-content: space-between; align-items: center; }
+        .header-container { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .btn-back { background-color: #6c757d; color: white; border-radius: 5px; }
+        .btn-back:hover { background-color: #5a6268; }
     </style>
 </head>
 <body>
@@ -30,9 +31,9 @@
 <div class="container">
     <div class="table-container">
         <!-- Header dengan tombol kembali -->
-        <div class="header-container mb-3">
-            <h3>Detail Kinerja Petugas</h3>
-            <button onclick="history.back()" class="btn btn-danger">
+        <div class="header-container">
+            <h3 class="text-primary">Detail Kinerja Petugas</h3>
+            <button onclick="history.back()" class="btn btn-back">
                 <i class="fas fa-arrow-left"></i> Kembali
             </button>
         </div>
@@ -67,13 +68,13 @@
                             <?php endif; ?>
                         </td>
                         <td>
-                            <?php if ($row['status'] == 'Disetujui') { ?>
-                                <span class="status-badge status-disetujui">Disetujui</span>
-                            <?php } elseif ($row['status'] == 'Pending') { ?>
-                                <span class="status-badge status-pending">Pending</span>
-                            <?php } else { ?>
-                                <span class="status-badge status-ditolak">Ditolak</span>
-                            <?php } ?>
+                            <?php 
+                            $status = !empty($row['status']) ? $row['status'] : 'Pending'; 
+                            ?>
+                            <span class="status-badge 
+                                <?= ($status == 'Disetujui') ? 'status-disetujui' : (($status == 'Pending') ? 'status-pending' : 'status-ditolak'); ?>">
+                                <?= $status; ?>
+                            </span>
                         </td>
                     </tr>
                 <?php } ?>

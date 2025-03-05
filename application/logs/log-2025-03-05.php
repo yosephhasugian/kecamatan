@@ -13293,3 +13293,2493 @@ DEBUG - 2025-03-05 09:35:23 --> Session class already loaded. Second attempt ign
 INFO - 2025-03-05 09:35:23 --> Model "Dashboard_model" initialized
 INFO - 2025-03-05 09:35:23 --> Final output sent to browser
 DEBUG - 2025-03-05 09:35:23 --> Total execution time: 0.0390
+INFO - 2025-03-05 09:35:24 --> Config Class Initialized
+INFO - 2025-03-05 09:35:24 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:35:24 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:35:24 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:35:24 --> URI Class Initialized
+INFO - 2025-03-05 09:35:24 --> Router Class Initialized
+INFO - 2025-03-05 09:35:24 --> Output Class Initialized
+INFO - 2025-03-05 09:35:24 --> Security Class Initialized
+DEBUG - 2025-03-05 09:35:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:35:24 --> Input Class Initialized
+INFO - 2025-03-05 09:35:24 --> Language Class Initialized
+INFO - 2025-03-05 09:35:24 --> Loader Class Initialized
+INFO - 2025-03-05 09:35:24 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:35:24 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:35:24 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:35:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:35:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:35:24 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:35:24 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:35:24 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:35:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:35:24 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:35:24 --> Model "User_model" initialized
+INFO - 2025-03-05 09:35:24 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:35:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/laporan.php
+INFO - 2025-03-05 09:35:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:35:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:35:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:35:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:35:24 --> Final output sent to browser
+DEBUG - 2025-03-05 09:35:24 --> Total execution time: 0.0448
+INFO - 2025-03-05 09:37:43 --> Config Class Initialized
+INFO - 2025-03-05 09:37:43 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:37:43 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:37:43 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:37:43 --> URI Class Initialized
+INFO - 2025-03-05 09:37:43 --> Router Class Initialized
+INFO - 2025-03-05 09:37:43 --> Output Class Initialized
+INFO - 2025-03-05 09:37:43 --> Security Class Initialized
+DEBUG - 2025-03-05 09:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:37:43 --> Input Class Initialized
+INFO - 2025-03-05 09:37:43 --> Language Class Initialized
+INFO - 2025-03-05 09:37:43 --> Loader Class Initialized
+INFO - 2025-03-05 09:37:43 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:37:43 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:37:43 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:37:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:37:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:37:43 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:37:43 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:37:43 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:37:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:37:43 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:37:43 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:37:43 --> Final output sent to browser
+DEBUG - 2025-03-05 09:37:43 --> Total execution time: 0.1328
+INFO - 2025-03-05 09:41:00 --> Config Class Initialized
+INFO - 2025-03-05 09:41:00 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:41:00 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:41:00 --> URI Class Initialized
+INFO - 2025-03-05 09:41:00 --> Router Class Initialized
+INFO - 2025-03-05 09:41:00 --> Output Class Initialized
+INFO - 2025-03-05 09:41:00 --> Security Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:41:00 --> Input Class Initialized
+INFO - 2025-03-05 09:41:00 --> Language Class Initialized
+INFO - 2025-03-05 09:41:00 --> Loader Class Initialized
+INFO - 2025-03-05 09:41:00 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:41:00 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:41:00 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:41:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:41:00 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:41:00 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:41:00 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:41:00 --> Model "User_model" initialized
+INFO - 2025-03-05 09:41:00 --> Config Class Initialized
+INFO - 2025-03-05 09:41:00 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:41:00 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:41:00 --> URI Class Initialized
+INFO - 2025-03-05 09:41:00 --> Router Class Initialized
+INFO - 2025-03-05 09:41:00 --> Output Class Initialized
+INFO - 2025-03-05 09:41:00 --> Security Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:41:00 --> Input Class Initialized
+INFO - 2025-03-05 09:41:00 --> Language Class Initialized
+INFO - 2025-03-05 09:41:00 --> Loader Class Initialized
+INFO - 2025-03-05 09:41:00 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:41:00 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:41:00 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:41:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:41:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:41:00 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:41:00 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:41:00 --> Controller Class Initialized
+INFO - 2025-03-05 09:41:00 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 09:41:00 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:41:00 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:41:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 09:41:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:41:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:41:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:41:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:41:00 --> Final output sent to browser
+DEBUG - 2025-03-05 09:41:00 --> Total execution time: 0.0614
+INFO - 2025-03-05 09:41:13 --> Config Class Initialized
+INFO - 2025-03-05 09:41:13 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:41:13 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:41:13 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:41:13 --> URI Class Initialized
+INFO - 2025-03-05 09:41:13 --> Router Class Initialized
+INFO - 2025-03-05 09:41:13 --> Output Class Initialized
+INFO - 2025-03-05 09:41:13 --> Security Class Initialized
+DEBUG - 2025-03-05 09:41:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:41:13 --> Input Class Initialized
+INFO - 2025-03-05 09:41:13 --> Language Class Initialized
+INFO - 2025-03-05 09:41:13 --> Loader Class Initialized
+INFO - 2025-03-05 09:41:13 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:41:13 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:41:13 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:41:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:41:13 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:41:13 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:41:13 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:41:13 --> Controller Class Initialized
+INFO - 2025-03-05 09:41:13 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 09:41:13 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:41:13 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:41:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 09:41:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:41:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:41:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:41:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:41:13 --> Final output sent to browser
+DEBUG - 2025-03-05 09:41:13 --> Total execution time: 0.0540
+INFO - 2025-03-05 09:41:45 --> Config Class Initialized
+INFO - 2025-03-05 09:41:45 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:41:45 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:41:45 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:41:45 --> URI Class Initialized
+INFO - 2025-03-05 09:41:45 --> Router Class Initialized
+INFO - 2025-03-05 09:41:45 --> Output Class Initialized
+INFO - 2025-03-05 09:41:45 --> Security Class Initialized
+DEBUG - 2025-03-05 09:41:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:41:45 --> Input Class Initialized
+INFO - 2025-03-05 09:41:45 --> Language Class Initialized
+INFO - 2025-03-05 09:41:45 --> Loader Class Initialized
+INFO - 2025-03-05 09:41:45 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:41:45 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:41:45 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:41:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:41:45 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:41:45 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:41:45 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:41:45 --> Controller Class Initialized
+INFO - 2025-03-05 09:41:45 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 09:41:45 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:41:45 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:41:45 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 09:41:45 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:41:45 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:41:45 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:41:45 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:41:45 --> Final output sent to browser
+DEBUG - 2025-03-05 09:41:45 --> Total execution time: 0.0572
+INFO - 2025-03-05 09:42:08 --> Config Class Initialized
+INFO - 2025-03-05 09:42:08 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:42:08 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:42:08 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:42:08 --> URI Class Initialized
+INFO - 2025-03-05 09:42:08 --> Router Class Initialized
+INFO - 2025-03-05 09:42:08 --> Output Class Initialized
+INFO - 2025-03-05 09:42:08 --> Security Class Initialized
+DEBUG - 2025-03-05 09:42:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:42:08 --> Input Class Initialized
+INFO - 2025-03-05 09:42:08 --> Language Class Initialized
+INFO - 2025-03-05 09:42:08 --> Loader Class Initialized
+INFO - 2025-03-05 09:42:08 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:42:08 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:42:08 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:42:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:42:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:42:08 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:42:08 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:42:08 --> Controller Class Initialized
+INFO - 2025-03-05 09:42:08 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 09:42:08 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:42:08 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:42:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 09:42:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:42:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:42:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:42:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:42:08 --> Final output sent to browser
+DEBUG - 2025-03-05 09:42:08 --> Total execution time: 0.0590
+INFO - 2025-03-05 09:43:19 --> Config Class Initialized
+INFO - 2025-03-05 09:43:19 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:19 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:19 --> URI Class Initialized
+INFO - 2025-03-05 09:43:19 --> Router Class Initialized
+INFO - 2025-03-05 09:43:19 --> Output Class Initialized
+INFO - 2025-03-05 09:43:19 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:19 --> Input Class Initialized
+INFO - 2025-03-05 09:43:19 --> Language Class Initialized
+INFO - 2025-03-05 09:43:19 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:19 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:19 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:19 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:19 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:19 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:19 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:19 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:19 --> Model "User_model" initialized
+INFO - 2025-03-05 09:43:19 --> Config Class Initialized
+INFO - 2025-03-05 09:43:19 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:19 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:19 --> URI Class Initialized
+INFO - 2025-03-05 09:43:19 --> Router Class Initialized
+INFO - 2025-03-05 09:43:19 --> Output Class Initialized
+INFO - 2025-03-05 09:43:19 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:19 --> Input Class Initialized
+INFO - 2025-03-05 09:43:19 --> Language Class Initialized
+INFO - 2025-03-05 09:43:19 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:19 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:19 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:19 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:19 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:19 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:19 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:19 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:19 --> Model "User_model" initialized
+INFO - 2025-03-05 09:43:19 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 09:43:19 --> Final output sent to browser
+DEBUG - 2025-03-05 09:43:19 --> Total execution time: 0.0343
+INFO - 2025-03-05 09:43:24 --> Config Class Initialized
+INFO - 2025-03-05 09:43:24 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:24 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:24 --> URI Class Initialized
+INFO - 2025-03-05 09:43:24 --> Router Class Initialized
+INFO - 2025-03-05 09:43:24 --> Output Class Initialized
+INFO - 2025-03-05 09:43:24 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:24 --> Input Class Initialized
+INFO - 2025-03-05 09:43:24 --> Language Class Initialized
+INFO - 2025-03-05 09:43:24 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:24 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:24 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:24 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:24 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:24 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:24 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:24 --> Model "User_model" initialized
+INFO - 2025-03-05 09:43:24 --> Config Class Initialized
+INFO - 2025-03-05 09:43:24 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:24 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:24 --> URI Class Initialized
+INFO - 2025-03-05 09:43:24 --> Router Class Initialized
+INFO - 2025-03-05 09:43:24 --> Output Class Initialized
+INFO - 2025-03-05 09:43:24 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:24 --> Input Class Initialized
+INFO - 2025-03-05 09:43:24 --> Language Class Initialized
+INFO - 2025-03-05 09:43:24 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:24 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:24 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:24 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:24 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:24 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:24 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:24 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:43:24 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:43:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/index.php
+INFO - 2025-03-05 09:43:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:43:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:43:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:43:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:43:24 --> Final output sent to browser
+DEBUG - 2025-03-05 09:43:24 --> Total execution time: 0.0562
+INFO - 2025-03-05 09:43:25 --> Config Class Initialized
+INFO - 2025-03-05 09:43:25 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:25 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:25 --> URI Class Initialized
+INFO - 2025-03-05 09:43:25 --> Router Class Initialized
+INFO - 2025-03-05 09:43:25 --> Output Class Initialized
+INFO - 2025-03-05 09:43:25 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:25 --> Input Class Initialized
+INFO - 2025-03-05 09:43:25 --> Language Class Initialized
+INFO - 2025-03-05 09:43:25 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:25 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:25 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:25 --> Config Class Initialized
+INFO - 2025-03-05 09:43:25 --> Database Driver Class Initialized
+INFO - 2025-03-05 09:43:25 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:25 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:25 --> URI Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:25 --> Router Class Initialized
+INFO - 2025-03-05 09:43:25 --> Output Class Initialized
+INFO - 2025-03-05 09:43:25 --> Security Class Initialized
+INFO - 2025-03-05 09:43:25 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:25 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:25 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:25 --> Input Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:25 --> Language Class Initialized
+INFO - 2025-03-05 09:43:25 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:43:25 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:25 --> Final output sent to browser
+DEBUG - 2025-03-05 09:43:25 --> Total execution time: 0.0482
+INFO - 2025-03-05 09:43:25 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:25 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:25 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:25 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:25 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:25 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:25 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:43:25 --> Final output sent to browser
+DEBUG - 2025-03-05 09:43:25 --> Total execution time: 0.0641
+INFO - 2025-03-05 09:43:28 --> Config Class Initialized
+INFO - 2025-03-05 09:43:28 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:43:28 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:43:28 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:43:28 --> URI Class Initialized
+INFO - 2025-03-05 09:43:28 --> Router Class Initialized
+INFO - 2025-03-05 09:43:28 --> Output Class Initialized
+INFO - 2025-03-05 09:43:28 --> Security Class Initialized
+DEBUG - 2025-03-05 09:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:43:28 --> Input Class Initialized
+INFO - 2025-03-05 09:43:28 --> Language Class Initialized
+INFO - 2025-03-05 09:43:28 --> Loader Class Initialized
+INFO - 2025-03-05 09:43:28 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:43:28 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:43:28 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:43:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:43:28 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:43:28 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:43:28 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:43:28 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:43:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:43:28 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:43:28 --> Model "User_model" initialized
+INFO - 2025-03-05 09:43:28 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:43:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/laporan.php
+INFO - 2025-03-05 09:43:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:43:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:43:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:43:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:43:28 --> Final output sent to browser
+DEBUG - 2025-03-05 09:43:28 --> Total execution time: 0.0411
+INFO - 2025-03-05 09:44:43 --> Config Class Initialized
+INFO - 2025-03-05 09:44:43 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:44:43 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:44:43 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:44:43 --> URI Class Initialized
+INFO - 2025-03-05 09:44:43 --> Router Class Initialized
+INFO - 2025-03-05 09:44:43 --> Output Class Initialized
+INFO - 2025-03-05 09:44:43 --> Security Class Initialized
+DEBUG - 2025-03-05 09:44:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:44:43 --> Input Class Initialized
+INFO - 2025-03-05 09:44:43 --> Language Class Initialized
+INFO - 2025-03-05 09:44:43 --> Loader Class Initialized
+INFO - 2025-03-05 09:44:43 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:44:43 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:44:43 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:44:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:44:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:44:43 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:44:43 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:44:43 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:44:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:44:43 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:44:43 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:44:43 --> Final output sent to browser
+DEBUG - 2025-03-05 09:44:43 --> Total execution time: 0.0568
+INFO - 2025-03-05 09:47:17 --> Config Class Initialized
+INFO - 2025-03-05 09:47:17 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:47:17 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:47:17 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:47:17 --> URI Class Initialized
+INFO - 2025-03-05 09:47:17 --> Router Class Initialized
+INFO - 2025-03-05 09:47:17 --> Output Class Initialized
+INFO - 2025-03-05 09:47:17 --> Security Class Initialized
+DEBUG - 2025-03-05 09:47:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:47:17 --> Input Class Initialized
+INFO - 2025-03-05 09:47:17 --> Language Class Initialized
+INFO - 2025-03-05 09:47:17 --> Loader Class Initialized
+INFO - 2025-03-05 09:47:17 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:47:17 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:47:17 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:47:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:47:17 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:47:17 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:47:17 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:47:17 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:47:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:47:17 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:47:17 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:47:17 --> Final output sent to browser
+DEBUG - 2025-03-05 09:47:17 --> Total execution time: 0.0427
+INFO - 2025-03-05 09:47:58 --> Config Class Initialized
+INFO - 2025-03-05 09:47:58 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:47:58 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:47:58 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:47:58 --> URI Class Initialized
+INFO - 2025-03-05 09:47:58 --> Router Class Initialized
+INFO - 2025-03-05 09:47:58 --> Output Class Initialized
+INFO - 2025-03-05 09:47:58 --> Security Class Initialized
+DEBUG - 2025-03-05 09:47:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:47:58 --> Input Class Initialized
+INFO - 2025-03-05 09:47:58 --> Language Class Initialized
+INFO - 2025-03-05 09:47:58 --> Loader Class Initialized
+INFO - 2025-03-05 09:47:58 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:47:58 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:47:58 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:47:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:47:58 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:47:58 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:47:58 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:47:58 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:47:58 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:47:58 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:47:58 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:47:58 --> Final output sent to browser
+DEBUG - 2025-03-05 09:47:58 --> Total execution time: 0.0844
+INFO - 2025-03-05 09:48:38 --> Config Class Initialized
+INFO - 2025-03-05 09:48:38 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:48:38 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:48:38 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:48:38 --> URI Class Initialized
+INFO - 2025-03-05 09:48:38 --> Router Class Initialized
+INFO - 2025-03-05 09:48:38 --> Output Class Initialized
+INFO - 2025-03-05 09:48:38 --> Security Class Initialized
+DEBUG - 2025-03-05 09:48:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:48:38 --> Input Class Initialized
+INFO - 2025-03-05 09:48:38 --> Language Class Initialized
+INFO - 2025-03-05 09:48:38 --> Loader Class Initialized
+INFO - 2025-03-05 09:48:38 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:48:38 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:48:38 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:48:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:48:38 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:48:38 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:48:38 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:48:38 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:48:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:48:38 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:48:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:48:38 --> Final output sent to browser
+DEBUG - 2025-03-05 09:48:38 --> Total execution time: 0.0596
+INFO - 2025-03-05 09:48:48 --> Config Class Initialized
+INFO - 2025-03-05 09:48:48 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:48:48 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:48:48 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:48:48 --> URI Class Initialized
+INFO - 2025-03-05 09:48:48 --> Router Class Initialized
+INFO - 2025-03-05 09:48:48 --> Output Class Initialized
+INFO - 2025-03-05 09:48:48 --> Security Class Initialized
+DEBUG - 2025-03-05 09:48:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:48:48 --> Input Class Initialized
+INFO - 2025-03-05 09:48:48 --> Language Class Initialized
+INFO - 2025-03-05 09:48:48 --> Loader Class Initialized
+INFO - 2025-03-05 09:48:48 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:48:48 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:48:48 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:48:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:48:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:48:48 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:48:48 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:48:48 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:48:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:48:48 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:48:48 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:48:48 --> Final output sent to browser
+DEBUG - 2025-03-05 09:48:48 --> Total execution time: 0.0429
+INFO - 2025-03-05 09:49:09 --> Config Class Initialized
+INFO - 2025-03-05 09:49:09 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:49:09 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:49:09 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:49:09 --> URI Class Initialized
+INFO - 2025-03-05 09:49:09 --> Router Class Initialized
+INFO - 2025-03-05 09:49:09 --> Output Class Initialized
+INFO - 2025-03-05 09:49:09 --> Security Class Initialized
+DEBUG - 2025-03-05 09:49:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:49:09 --> Input Class Initialized
+INFO - 2025-03-05 09:49:09 --> Language Class Initialized
+INFO - 2025-03-05 09:49:09 --> Loader Class Initialized
+INFO - 2025-03-05 09:49:09 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:49:09 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:49:09 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:49:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:49:09 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:49:09 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:49:09 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:49:09 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:49:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:49:09 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:49:09 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:49:09 --> Final output sent to browser
+DEBUG - 2025-03-05 09:49:09 --> Total execution time: 0.0471
+INFO - 2025-03-05 09:49:24 --> Config Class Initialized
+INFO - 2025-03-05 09:49:24 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:49:24 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:49:24 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:49:24 --> URI Class Initialized
+INFO - 2025-03-05 09:49:24 --> Router Class Initialized
+INFO - 2025-03-05 09:49:24 --> Output Class Initialized
+INFO - 2025-03-05 09:49:24 --> Security Class Initialized
+DEBUG - 2025-03-05 09:49:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:49:24 --> Input Class Initialized
+INFO - 2025-03-05 09:49:24 --> Language Class Initialized
+INFO - 2025-03-05 09:49:24 --> Loader Class Initialized
+INFO - 2025-03-05 09:49:24 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:49:24 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:49:24 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:49:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:49:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:49:24 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:49:24 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:49:24 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:49:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:49:24 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:49:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:49:24 --> Final output sent to browser
+DEBUG - 2025-03-05 09:49:24 --> Total execution time: 0.0473
+INFO - 2025-03-05 09:56:38 --> Config Class Initialized
+INFO - 2025-03-05 09:56:38 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:56:38 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:56:38 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:56:38 --> URI Class Initialized
+INFO - 2025-03-05 09:56:38 --> Router Class Initialized
+INFO - 2025-03-05 09:56:38 --> Output Class Initialized
+INFO - 2025-03-05 09:56:38 --> Security Class Initialized
+DEBUG - 2025-03-05 09:56:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:56:38 --> Input Class Initialized
+INFO - 2025-03-05 09:56:38 --> Language Class Initialized
+INFO - 2025-03-05 09:56:38 --> Loader Class Initialized
+INFO - 2025-03-05 09:56:38 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:56:38 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:56:38 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:56:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:56:38 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:56:38 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:56:38 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:56:38 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:56:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:56:38 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:56:38 --> Model "User_model" initialized
+INFO - 2025-03-05 09:56:38 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 09:56:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/laporan.php
+INFO - 2025-03-05 09:56:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 09:56:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 09:56:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 09:56:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 09:56:38 --> Final output sent to browser
+DEBUG - 2025-03-05 09:56:38 --> Total execution time: 0.0519
+INFO - 2025-03-05 09:56:49 --> Config Class Initialized
+INFO - 2025-03-05 09:56:49 --> Hooks Class Initialized
+DEBUG - 2025-03-05 09:56:49 --> UTF-8 Support Enabled
+INFO - 2025-03-05 09:56:49 --> Utf8 Class Initialized
+INFO - 2025-03-05 09:56:49 --> URI Class Initialized
+INFO - 2025-03-05 09:56:49 --> Router Class Initialized
+INFO - 2025-03-05 09:56:49 --> Output Class Initialized
+INFO - 2025-03-05 09:56:49 --> Security Class Initialized
+DEBUG - 2025-03-05 09:56:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 09:56:49 --> Input Class Initialized
+INFO - 2025-03-05 09:56:49 --> Language Class Initialized
+INFO - 2025-03-05 09:56:49 --> Loader Class Initialized
+INFO - 2025-03-05 09:56:49 --> Helper loaded: url_helper
+INFO - 2025-03-05 09:56:49 --> Helper loaded: file_helper
+INFO - 2025-03-05 09:56:49 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 09:56:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 09:56:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 09:56:49 --> Helper loaded: form_helper
+INFO - 2025-03-05 09:56:49 --> Form Validation Class Initialized
+INFO - 2025-03-05 09:56:49 --> Controller Class Initialized
+DEBUG - 2025-03-05 09:56:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 09:56:49 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 09:56:49 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 09:56:49 --> Final output sent to browser
+DEBUG - 2025-03-05 09:56:49 --> Total execution time: 0.0426
+INFO - 2025-03-05 10:02:42 --> Config Class Initialized
+INFO - 2025-03-05 10:02:42 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:02:42 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:02:42 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:02:42 --> URI Class Initialized
+INFO - 2025-03-05 10:02:42 --> Router Class Initialized
+INFO - 2025-03-05 10:02:42 --> Output Class Initialized
+INFO - 2025-03-05 10:02:42 --> Security Class Initialized
+DEBUG - 2025-03-05 10:02:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:02:42 --> Input Class Initialized
+INFO - 2025-03-05 10:02:42 --> Language Class Initialized
+INFO - 2025-03-05 10:02:42 --> Loader Class Initialized
+INFO - 2025-03-05 10:02:42 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:02:42 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:02:42 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:02:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:02:42 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:02:42 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:02:42 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:02:42 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:02:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:02:42 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 10:02:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/print_laporan.php
+INFO - 2025-03-05 10:02:42 --> Final output sent to browser
+DEBUG - 2025-03-05 10:02:42 --> Total execution time: 0.0452
+INFO - 2025-03-05 10:03:08 --> Config Class Initialized
+INFO - 2025-03-05 10:03:08 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:08 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:08 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:08 --> URI Class Initialized
+INFO - 2025-03-05 10:03:08 --> Router Class Initialized
+INFO - 2025-03-05 10:03:08 --> Output Class Initialized
+INFO - 2025-03-05 10:03:08 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:08 --> Input Class Initialized
+INFO - 2025-03-05 10:03:08 --> Language Class Initialized
+INFO - 2025-03-05 10:03:08 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:08 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:08 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:08 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:08 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:08 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:08 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:03:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:08 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 10:03:08 --> Model "User_model" initialized
+INFO - 2025-03-05 10:03:08 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:03:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/laporan.php
+INFO - 2025-03-05 10:03:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:03:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:03:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:03:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:03:08 --> Final output sent to browser
+DEBUG - 2025-03-05 10:03:08 --> Total execution time: 0.0962
+INFO - 2025-03-05 10:03:40 --> Config Class Initialized
+INFO - 2025-03-05 10:03:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:40 --> URI Class Initialized
+INFO - 2025-03-05 10:03:40 --> Router Class Initialized
+INFO - 2025-03-05 10:03:40 --> Output Class Initialized
+INFO - 2025-03-05 10:03:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:40 --> Input Class Initialized
+INFO - 2025-03-05 10:03:40 --> Language Class Initialized
+INFO - 2025-03-05 10:03:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:40 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:40 --> Model "User_model" initialized
+INFO - 2025-03-05 10:03:40 --> Config Class Initialized
+INFO - 2025-03-05 10:03:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:40 --> URI Class Initialized
+INFO - 2025-03-05 10:03:40 --> Router Class Initialized
+INFO - 2025-03-05 10:03:40 --> Output Class Initialized
+INFO - 2025-03-05 10:03:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:40 --> Input Class Initialized
+INFO - 2025-03-05 10:03:40 --> Language Class Initialized
+INFO - 2025-03-05 10:03:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:40 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:03:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:40 --> Model "User_model" initialized
+INFO - 2025-03-05 10:03:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:03:40 --> Final output sent to browser
+DEBUG - 2025-03-05 10:03:40 --> Total execution time: 0.0365
+INFO - 2025-03-05 10:03:50 --> Config Class Initialized
+INFO - 2025-03-05 10:03:50 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:50 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:50 --> URI Class Initialized
+INFO - 2025-03-05 10:03:50 --> Router Class Initialized
+INFO - 2025-03-05 10:03:50 --> Output Class Initialized
+INFO - 2025-03-05 10:03:50 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:50 --> Input Class Initialized
+INFO - 2025-03-05 10:03:50 --> Language Class Initialized
+INFO - 2025-03-05 10:03:50 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:50 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:50 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:50 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:50 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:50 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:50 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:50 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:50 --> Model "User_model" initialized
+INFO - 2025-03-05 10:03:50 --> Config Class Initialized
+INFO - 2025-03-05 10:03:50 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:50 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:50 --> URI Class Initialized
+INFO - 2025-03-05 10:03:50 --> Router Class Initialized
+INFO - 2025-03-05 10:03:50 --> Output Class Initialized
+INFO - 2025-03-05 10:03:50 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:50 --> Input Class Initialized
+INFO - 2025-03-05 10:03:50 --> Language Class Initialized
+INFO - 2025-03-05 10:03:50 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:50 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:50 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:50 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:50 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:50 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:50 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:50 --> Controller Class Initialized
+INFO - 2025-03-05 10:03:50 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:03:50 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:50 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:03:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:03:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:03:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:03:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:03:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:03:50 --> Final output sent to browser
+DEBUG - 2025-03-05 10:03:50 --> Total execution time: 0.0468
+INFO - 2025-03-05 10:03:53 --> Config Class Initialized
+INFO - 2025-03-05 10:03:53 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:03:53 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:03:53 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:03:53 --> URI Class Initialized
+INFO - 2025-03-05 10:03:53 --> Router Class Initialized
+INFO - 2025-03-05 10:03:53 --> Output Class Initialized
+INFO - 2025-03-05 10:03:53 --> Security Class Initialized
+DEBUG - 2025-03-05 10:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:03:53 --> Input Class Initialized
+INFO - 2025-03-05 10:03:53 --> Language Class Initialized
+INFO - 2025-03-05 10:03:53 --> Loader Class Initialized
+INFO - 2025-03-05 10:03:53 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:03:53 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:03:53 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:03:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:03:54 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:03:54 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:03:54 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:03:54 --> Controller Class Initialized
+INFO - 2025-03-05 10:03:54 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:03:54 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:03:54 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:03:54 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:03:54 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:03:54 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:03:54 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:03:54 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:03:54 --> Final output sent to browser
+DEBUG - 2025-03-05 10:03:54 --> Total execution time: 0.0628
+INFO - 2025-03-05 10:05:46 --> Config Class Initialized
+INFO - 2025-03-05 10:05:46 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:05:46 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:05:46 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:05:46 --> URI Class Initialized
+INFO - 2025-03-05 10:05:46 --> Router Class Initialized
+INFO - 2025-03-05 10:05:46 --> Output Class Initialized
+INFO - 2025-03-05 10:05:46 --> Security Class Initialized
+DEBUG - 2025-03-05 10:05:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:05:46 --> Input Class Initialized
+INFO - 2025-03-05 10:05:46 --> Language Class Initialized
+INFO - 2025-03-05 10:05:46 --> Loader Class Initialized
+INFO - 2025-03-05 10:05:46 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:05:46 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:05:46 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:05:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:05:46 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:05:46 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:05:46 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:05:46 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:05:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:05:46 --> Model "User_model" initialized
+INFO - 2025-03-05 10:05:47 --> Config Class Initialized
+INFO - 2025-03-05 10:05:47 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:05:47 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:05:47 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:05:47 --> URI Class Initialized
+INFO - 2025-03-05 10:05:47 --> Router Class Initialized
+INFO - 2025-03-05 10:05:47 --> Output Class Initialized
+INFO - 2025-03-05 10:05:47 --> Security Class Initialized
+DEBUG - 2025-03-05 10:05:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:05:47 --> Input Class Initialized
+INFO - 2025-03-05 10:05:47 --> Language Class Initialized
+INFO - 2025-03-05 10:05:47 --> Loader Class Initialized
+INFO - 2025-03-05 10:05:47 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:05:47 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:05:47 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:05:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:05:47 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:05:47 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:05:47 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:05:47 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:05:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:05:47 --> Model "User_model" initialized
+INFO - 2025-03-05 10:05:47 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:05:47 --> Final output sent to browser
+DEBUG - 2025-03-05 10:05:47 --> Total execution time: 0.0589
+INFO - 2025-03-05 10:05:52 --> Config Class Initialized
+INFO - 2025-03-05 10:05:52 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:05:52 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:05:52 --> URI Class Initialized
+INFO - 2025-03-05 10:05:52 --> Router Class Initialized
+INFO - 2025-03-05 10:05:52 --> Output Class Initialized
+INFO - 2025-03-05 10:05:52 --> Security Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:05:52 --> Input Class Initialized
+INFO - 2025-03-05 10:05:52 --> Language Class Initialized
+INFO - 2025-03-05 10:05:52 --> Loader Class Initialized
+INFO - 2025-03-05 10:05:52 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:05:52 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:05:52 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:05:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:05:52 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:05:52 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:05:52 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:05:52 --> Model "User_model" initialized
+INFO - 2025-03-05 10:05:52 --> Config Class Initialized
+INFO - 2025-03-05 10:05:52 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:05:52 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:05:52 --> URI Class Initialized
+INFO - 2025-03-05 10:05:52 --> Router Class Initialized
+INFO - 2025-03-05 10:05:52 --> Output Class Initialized
+INFO - 2025-03-05 10:05:52 --> Security Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:05:52 --> Input Class Initialized
+INFO - 2025-03-05 10:05:52 --> Language Class Initialized
+INFO - 2025-03-05 10:05:52 --> Loader Class Initialized
+INFO - 2025-03-05 10:05:52 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:05:52 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:05:52 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:05:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:05:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:05:52 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:05:52 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:05:52 --> Controller Class Initialized
+INFO - 2025-03-05 10:05:52 --> Model "Pengawas_model" initialized
+DEBUG - 2025-03-05 10:05:52 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:05:52 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:05:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\pengawas/validasi.php
+INFO - 2025-03-05 10:05:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:05:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:05:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:05:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:05:52 --> Final output sent to browser
+DEBUG - 2025-03-05 10:05:52 --> Total execution time: 0.0394
+INFO - 2025-03-05 10:05:53 --> Config Class Initialized
+INFO - 2025-03-05 10:05:53 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:05:53 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:05:53 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:05:53 --> URI Class Initialized
+INFO - 2025-03-05 10:05:53 --> Router Class Initialized
+INFO - 2025-03-05 10:05:53 --> Output Class Initialized
+INFO - 2025-03-05 10:05:53 --> Security Class Initialized
+DEBUG - 2025-03-05 10:05:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:05:53 --> Input Class Initialized
+INFO - 2025-03-05 10:05:53 --> Language Class Initialized
+INFO - 2025-03-05 10:05:53 --> Loader Class Initialized
+INFO - 2025-03-05 10:05:53 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:05:53 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:05:53 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:05:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:05:53 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:05:53 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:05:53 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:05:53 --> Controller Class Initialized
+INFO - 2025-03-05 10:05:53 --> Model "Pengawas_model" initialized
+DEBUG - 2025-03-05 10:05:53 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:05:53 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:05:53 --> File loaded: C:\xampp\htdocs\ekin\application\views\pengawas/dashboard.php
+INFO - 2025-03-05 10:05:53 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:05:53 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:05:53 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:05:53 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:05:53 --> Final output sent to browser
+DEBUG - 2025-03-05 10:05:53 --> Total execution time: 0.0763
+INFO - 2025-03-05 10:08:38 --> Config Class Initialized
+INFO - 2025-03-05 10:08:38 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:08:38 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:08:38 --> URI Class Initialized
+INFO - 2025-03-05 10:08:38 --> Router Class Initialized
+INFO - 2025-03-05 10:08:38 --> Output Class Initialized
+INFO - 2025-03-05 10:08:38 --> Security Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:08:38 --> Input Class Initialized
+INFO - 2025-03-05 10:08:38 --> Language Class Initialized
+INFO - 2025-03-05 10:08:38 --> Loader Class Initialized
+INFO - 2025-03-05 10:08:38 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:08:38 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:08:38 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:08:38 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:08:38 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:08:38 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:08:38 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:08:38 --> Model "User_model" initialized
+INFO - 2025-03-05 10:08:38 --> Config Class Initialized
+INFO - 2025-03-05 10:08:38 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:08:38 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:08:38 --> URI Class Initialized
+INFO - 2025-03-05 10:08:38 --> Router Class Initialized
+INFO - 2025-03-05 10:08:38 --> Output Class Initialized
+INFO - 2025-03-05 10:08:38 --> Security Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:08:38 --> Input Class Initialized
+INFO - 2025-03-05 10:08:38 --> Language Class Initialized
+INFO - 2025-03-05 10:08:38 --> Loader Class Initialized
+INFO - 2025-03-05 10:08:38 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:08:38 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:08:38 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:08:38 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:08:38 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:08:38 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:08:38 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:08:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:08:38 --> Model "User_model" initialized
+INFO - 2025-03-05 10:08:38 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:08:38 --> Final output sent to browser
+DEBUG - 2025-03-05 10:08:38 --> Total execution time: 0.0425
+INFO - 2025-03-05 10:08:42 --> Config Class Initialized
+INFO - 2025-03-05 10:08:42 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:08:42 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:08:42 --> URI Class Initialized
+INFO - 2025-03-05 10:08:42 --> Router Class Initialized
+INFO - 2025-03-05 10:08:42 --> Output Class Initialized
+INFO - 2025-03-05 10:08:42 --> Security Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:08:42 --> Input Class Initialized
+INFO - 2025-03-05 10:08:42 --> Language Class Initialized
+INFO - 2025-03-05 10:08:42 --> Loader Class Initialized
+INFO - 2025-03-05 10:08:42 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:08:42 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:08:42 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:08:42 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:08:42 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:08:42 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:08:42 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:08:42 --> Model "User_model" initialized
+INFO - 2025-03-05 10:08:42 --> Config Class Initialized
+INFO - 2025-03-05 10:08:42 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:08:42 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:08:42 --> URI Class Initialized
+INFO - 2025-03-05 10:08:42 --> Router Class Initialized
+INFO - 2025-03-05 10:08:42 --> Output Class Initialized
+INFO - 2025-03-05 10:08:42 --> Security Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:08:42 --> Input Class Initialized
+INFO - 2025-03-05 10:08:42 --> Language Class Initialized
+INFO - 2025-03-05 10:08:42 --> Loader Class Initialized
+INFO - 2025-03-05 10:08:42 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:08:42 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:08:42 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:08:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:08:42 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:08:42 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:08:42 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:08:42 --> Controller Class Initialized
+INFO - 2025-03-05 10:08:42 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:08:42 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:08:42 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:08:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:08:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:08:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:08:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:08:42 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:08:42 --> Final output sent to browser
+DEBUG - 2025-03-05 10:08:42 --> Total execution time: 0.0426
+INFO - 2025-03-05 10:08:46 --> Config Class Initialized
+INFO - 2025-03-05 10:08:46 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:08:46 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:08:46 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:08:46 --> URI Class Initialized
+INFO - 2025-03-05 10:08:46 --> Router Class Initialized
+INFO - 2025-03-05 10:08:46 --> Output Class Initialized
+INFO - 2025-03-05 10:08:46 --> Security Class Initialized
+DEBUG - 2025-03-05 10:08:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:08:46 --> Input Class Initialized
+INFO - 2025-03-05 10:08:46 --> Language Class Initialized
+INFO - 2025-03-05 10:08:46 --> Loader Class Initialized
+INFO - 2025-03-05 10:08:46 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:08:46 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:08:46 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:08:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:08:46 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:08:46 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:08:46 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:08:46 --> Controller Class Initialized
+INFO - 2025-03-05 10:08:46 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:08:46 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:08:46 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:08:46 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:08:46 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:08:46 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:08:46 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:08:46 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:08:46 --> Final output sent to browser
+DEBUG - 2025-03-05 10:08:46 --> Total execution time: 0.0469
+INFO - 2025-03-05 10:09:07 --> Config Class Initialized
+INFO - 2025-03-05 10:09:07 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:07 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:07 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:07 --> URI Class Initialized
+INFO - 2025-03-05 10:09:07 --> Router Class Initialized
+INFO - 2025-03-05 10:09:07 --> Output Class Initialized
+INFO - 2025-03-05 10:09:07 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:07 --> Input Class Initialized
+INFO - 2025-03-05 10:09:07 --> Language Class Initialized
+INFO - 2025-03-05 10:09:07 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:07 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:07 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:07 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:07 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:07 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:07 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:07 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:07 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:07 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:07 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:09:07 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:07 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:07 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:07 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:07 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:07 --> Total execution time: 0.0600
+INFO - 2025-03-05 10:09:08 --> Config Class Initialized
+INFO - 2025-03-05 10:09:08 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:08 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:08 --> URI Class Initialized
+INFO - 2025-03-05 10:09:08 --> Router Class Initialized
+INFO - 2025-03-05 10:09:08 --> Output Class Initialized
+INFO - 2025-03-05 10:09:08 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:08 --> Input Class Initialized
+INFO - 2025-03-05 10:09:08 --> Language Class Initialized
+INFO - 2025-03-05 10:09:08 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:08 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:08 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:08 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:08 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:08 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:08 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:08 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:08 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:08 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:08 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:08 --> Total execution time: 0.0427
+INFO - 2025-03-05 10:09:08 --> Config Class Initialized
+INFO - 2025-03-05 10:09:08 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:08 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:08 --> URI Class Initialized
+INFO - 2025-03-05 10:09:08 --> Router Class Initialized
+INFO - 2025-03-05 10:09:08 --> Output Class Initialized
+INFO - 2025-03-05 10:09:08 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:08 --> Input Class Initialized
+INFO - 2025-03-05 10:09:08 --> Language Class Initialized
+INFO - 2025-03-05 10:09:08 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:08 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:08 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:08 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:08 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:08 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:08 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:08 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:08 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:08 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:08 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:08 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:08 --> Total execution time: 0.0407
+INFO - 2025-03-05 10:09:13 --> Config Class Initialized
+INFO - 2025-03-05 10:09:13 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:13 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:13 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:13 --> URI Class Initialized
+INFO - 2025-03-05 10:09:13 --> Router Class Initialized
+INFO - 2025-03-05 10:09:13 --> Output Class Initialized
+INFO - 2025-03-05 10:09:13 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:13 --> Input Class Initialized
+INFO - 2025-03-05 10:09:13 --> Language Class Initialized
+INFO - 2025-03-05 10:09:13 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:13 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:13 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:13 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:13 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:13 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:13 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:13 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:13 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:13 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:13 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:09:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:13 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:13 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:13 --> Total execution time: 0.0425
+INFO - 2025-03-05 10:09:18 --> Config Class Initialized
+INFO - 2025-03-05 10:09:18 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:18 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:18 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:18 --> URI Class Initialized
+INFO - 2025-03-05 10:09:18 --> Router Class Initialized
+INFO - 2025-03-05 10:09:18 --> Output Class Initialized
+INFO - 2025-03-05 10:09:18 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:18 --> Input Class Initialized
+INFO - 2025-03-05 10:09:18 --> Language Class Initialized
+INFO - 2025-03-05 10:09:18 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:18 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:18 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:18 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:18 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:18 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:18 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:18 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:18 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:18 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:18 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:18 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:09:18 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:18 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:18 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:18 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:18 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:18 --> Total execution time: 0.0434
+INFO - 2025-03-05 10:09:22 --> Config Class Initialized
+INFO - 2025-03-05 10:09:22 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:09:22 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:09:22 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:09:22 --> URI Class Initialized
+INFO - 2025-03-05 10:09:22 --> Router Class Initialized
+INFO - 2025-03-05 10:09:22 --> Output Class Initialized
+INFO - 2025-03-05 10:09:22 --> Security Class Initialized
+DEBUG - 2025-03-05 10:09:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:09:22 --> Input Class Initialized
+INFO - 2025-03-05 10:09:22 --> Language Class Initialized
+INFO - 2025-03-05 10:09:22 --> Loader Class Initialized
+INFO - 2025-03-05 10:09:22 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:09:22 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:09:22 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:09:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:09:22 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:09:22 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:09:22 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:09:22 --> Controller Class Initialized
+INFO - 2025-03-05 10:09:22 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:09:22 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:09:22 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:09:22 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:09:22 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:09:22 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:09:22 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:09:22 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:09:22 --> Final output sent to browser
+DEBUG - 2025-03-05 10:09:22 --> Total execution time: 0.0566
+INFO - 2025-03-05 10:12:29 --> Config Class Initialized
+INFO - 2025-03-05 10:12:29 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:12:29 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:12:29 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:12:29 --> URI Class Initialized
+INFO - 2025-03-05 10:12:29 --> Router Class Initialized
+INFO - 2025-03-05 10:12:29 --> Output Class Initialized
+INFO - 2025-03-05 10:12:29 --> Security Class Initialized
+DEBUG - 2025-03-05 10:12:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:12:29 --> Input Class Initialized
+INFO - 2025-03-05 10:12:29 --> Language Class Initialized
+INFO - 2025-03-05 10:12:29 --> Loader Class Initialized
+INFO - 2025-03-05 10:12:29 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:12:29 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:12:29 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:12:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:12:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:12:29 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:12:29 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:12:29 --> Controller Class Initialized
+INFO - 2025-03-05 10:12:29 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:12:29 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:12:29 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:12:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:12:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:12:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:12:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:12:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:12:29 --> Final output sent to browser
+DEBUG - 2025-03-05 10:12:29 --> Total execution time: 0.0708
+INFO - 2025-03-05 10:13:15 --> Config Class Initialized
+INFO - 2025-03-05 10:13:15 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:13:15 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:13:15 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:13:15 --> URI Class Initialized
+INFO - 2025-03-05 10:13:15 --> Router Class Initialized
+INFO - 2025-03-05 10:13:15 --> Output Class Initialized
+INFO - 2025-03-05 10:13:15 --> Security Class Initialized
+DEBUG - 2025-03-05 10:13:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:13:15 --> Input Class Initialized
+INFO - 2025-03-05 10:13:15 --> Language Class Initialized
+INFO - 2025-03-05 10:13:15 --> Loader Class Initialized
+INFO - 2025-03-05 10:13:15 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:13:15 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:13:15 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:13:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:13:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:13:15 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:13:15 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:13:15 --> Controller Class Initialized
+INFO - 2025-03-05 10:13:15 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:13:15 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:13:15 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:13:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:13:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:13:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:13:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:13:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:13:15 --> Final output sent to browser
+DEBUG - 2025-03-05 10:13:15 --> Total execution time: 0.0396
+INFO - 2025-03-05 10:13:23 --> Config Class Initialized
+INFO - 2025-03-05 10:13:23 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:13:23 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:13:23 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:13:23 --> URI Class Initialized
+INFO - 2025-03-05 10:13:23 --> Router Class Initialized
+INFO - 2025-03-05 10:13:23 --> Output Class Initialized
+INFO - 2025-03-05 10:13:23 --> Security Class Initialized
+DEBUG - 2025-03-05 10:13:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:13:23 --> Input Class Initialized
+INFO - 2025-03-05 10:13:23 --> Language Class Initialized
+INFO - 2025-03-05 10:13:23 --> Loader Class Initialized
+INFO - 2025-03-05 10:13:23 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:13:23 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:13:23 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:13:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:13:23 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:13:23 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:13:23 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:13:23 --> Controller Class Initialized
+INFO - 2025-03-05 10:13:23 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:13:23 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:13:23 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:13:23 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:13:23 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:13:23 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:13:23 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:13:23 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:13:23 --> Final output sent to browser
+DEBUG - 2025-03-05 10:13:23 --> Total execution time: 0.0643
+INFO - 2025-03-05 10:13:31 --> Config Class Initialized
+INFO - 2025-03-05 10:13:31 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:13:31 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:13:31 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:13:31 --> URI Class Initialized
+INFO - 2025-03-05 10:13:31 --> Router Class Initialized
+INFO - 2025-03-05 10:13:31 --> Output Class Initialized
+INFO - 2025-03-05 10:13:31 --> Security Class Initialized
+DEBUG - 2025-03-05 10:13:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:13:31 --> Input Class Initialized
+INFO - 2025-03-05 10:13:31 --> Language Class Initialized
+INFO - 2025-03-05 10:13:31 --> Loader Class Initialized
+INFO - 2025-03-05 10:13:31 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:13:31 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:13:31 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:13:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:13:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:13:31 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:13:31 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:13:31 --> Controller Class Initialized
+INFO - 2025-03-05 10:13:31 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:13:31 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:13:31 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:13:31 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:13:31 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:13:31 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:13:31 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:13:31 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:13:31 --> Final output sent to browser
+DEBUG - 2025-03-05 10:13:31 --> Total execution time: 0.0435
+INFO - 2025-03-05 10:13:36 --> Config Class Initialized
+INFO - 2025-03-05 10:13:36 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:13:36 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:13:36 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:13:36 --> URI Class Initialized
+INFO - 2025-03-05 10:13:36 --> Router Class Initialized
+INFO - 2025-03-05 10:13:36 --> Output Class Initialized
+INFO - 2025-03-05 10:13:36 --> Security Class Initialized
+DEBUG - 2025-03-05 10:13:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:13:36 --> Input Class Initialized
+INFO - 2025-03-05 10:13:36 --> Language Class Initialized
+INFO - 2025-03-05 10:13:36 --> Loader Class Initialized
+INFO - 2025-03-05 10:13:36 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:13:36 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:13:36 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:13:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:13:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:13:36 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:13:36 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:13:36 --> Controller Class Initialized
+INFO - 2025-03-05 10:13:36 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:13:36 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:13:36 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:13:36 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:13:36 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:13:36 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:13:36 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:13:36 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:13:36 --> Final output sent to browser
+DEBUG - 2025-03-05 10:13:36 --> Total execution time: 0.0634
+INFO - 2025-03-05 10:13:41 --> Config Class Initialized
+INFO - 2025-03-05 10:13:41 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:13:41 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:13:41 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:13:41 --> URI Class Initialized
+INFO - 2025-03-05 10:13:41 --> Router Class Initialized
+INFO - 2025-03-05 10:13:41 --> Output Class Initialized
+INFO - 2025-03-05 10:13:41 --> Security Class Initialized
+DEBUG - 2025-03-05 10:13:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:13:41 --> Input Class Initialized
+INFO - 2025-03-05 10:13:41 --> Language Class Initialized
+INFO - 2025-03-05 10:13:41 --> Loader Class Initialized
+INFO - 2025-03-05 10:13:41 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:13:41 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:13:41 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:13:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:13:41 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:13:41 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:13:41 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:13:41 --> Controller Class Initialized
+INFO - 2025-03-05 10:13:41 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:13:41 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:13:41 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:13:41 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:13:41 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:13:41 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:13:41 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:13:41 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:13:41 --> Final output sent to browser
+DEBUG - 2025-03-05 10:13:41 --> Total execution time: 0.0479
+INFO - 2025-03-05 10:14:25 --> Config Class Initialized
+INFO - 2025-03-05 10:14:25 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:14:25 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:14:25 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:14:25 --> URI Class Initialized
+INFO - 2025-03-05 10:14:25 --> Router Class Initialized
+INFO - 2025-03-05 10:14:25 --> Output Class Initialized
+INFO - 2025-03-05 10:14:25 --> Security Class Initialized
+DEBUG - 2025-03-05 10:14:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:14:25 --> Input Class Initialized
+INFO - 2025-03-05 10:14:25 --> Language Class Initialized
+INFO - 2025-03-05 10:14:25 --> Loader Class Initialized
+INFO - 2025-03-05 10:14:25 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:14:25 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:14:25 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:14:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:14:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:14:25 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:14:25 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:14:25 --> Controller Class Initialized
+INFO - 2025-03-05 10:14:25 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:14:25 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:14:25 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:14:25 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:14:25 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:14:25 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:14:25 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:14:25 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:14:25 --> Final output sent to browser
+DEBUG - 2025-03-05 10:14:25 --> Total execution time: 0.0506
+INFO - 2025-03-05 10:14:28 --> Config Class Initialized
+INFO - 2025-03-05 10:14:28 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:14:28 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:14:28 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:14:28 --> URI Class Initialized
+INFO - 2025-03-05 10:14:28 --> Router Class Initialized
+INFO - 2025-03-05 10:14:28 --> Output Class Initialized
+INFO - 2025-03-05 10:14:28 --> Security Class Initialized
+DEBUG - 2025-03-05 10:14:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:14:28 --> Input Class Initialized
+INFO - 2025-03-05 10:14:28 --> Language Class Initialized
+INFO - 2025-03-05 10:14:28 --> Loader Class Initialized
+INFO - 2025-03-05 10:14:28 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:14:28 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:14:28 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:14:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:14:28 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:14:28 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:14:28 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:14:28 --> Controller Class Initialized
+INFO - 2025-03-05 10:14:28 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:14:28 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:14:28 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:14:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:14:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:14:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:14:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:14:28 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:14:28 --> Final output sent to browser
+DEBUG - 2025-03-05 10:14:28 --> Total execution time: 0.0431
+INFO - 2025-03-05 10:15:29 --> Config Class Initialized
+INFO - 2025-03-05 10:15:29 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:15:29 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:15:29 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:15:29 --> URI Class Initialized
+INFO - 2025-03-05 10:15:29 --> Router Class Initialized
+INFO - 2025-03-05 10:15:29 --> Output Class Initialized
+INFO - 2025-03-05 10:15:29 --> Security Class Initialized
+DEBUG - 2025-03-05 10:15:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:15:29 --> Input Class Initialized
+INFO - 2025-03-05 10:15:29 --> Language Class Initialized
+INFO - 2025-03-05 10:15:29 --> Loader Class Initialized
+INFO - 2025-03-05 10:15:29 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:15:29 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:15:29 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:15:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:15:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:15:29 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:15:29 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:15:29 --> Controller Class Initialized
+INFO - 2025-03-05 10:15:29 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:15:29 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:15:29 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:15:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:15:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:15:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:15:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:15:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:15:29 --> Final output sent to browser
+DEBUG - 2025-03-05 10:15:29 --> Total execution time: 0.0440
+INFO - 2025-03-05 10:16:41 --> Config Class Initialized
+INFO - 2025-03-05 10:16:41 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:16:41 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:16:41 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:16:41 --> URI Class Initialized
+INFO - 2025-03-05 10:16:41 --> Router Class Initialized
+INFO - 2025-03-05 10:16:41 --> Output Class Initialized
+INFO - 2025-03-05 10:16:41 --> Security Class Initialized
+DEBUG - 2025-03-05 10:16:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:16:41 --> Input Class Initialized
+INFO - 2025-03-05 10:16:41 --> Language Class Initialized
+INFO - 2025-03-05 10:16:41 --> Loader Class Initialized
+INFO - 2025-03-05 10:16:41 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:16:41 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:16:41 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:16:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:16:41 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:16:41 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:16:41 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:16:41 --> Controller Class Initialized
+INFO - 2025-03-05 10:16:41 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:16:41 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:16:41 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:17:32 --> Config Class Initialized
+INFO - 2025-03-05 10:17:32 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:17:32 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:17:32 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:17:32 --> URI Class Initialized
+INFO - 2025-03-05 10:17:32 --> Router Class Initialized
+INFO - 2025-03-05 10:17:32 --> Output Class Initialized
+INFO - 2025-03-05 10:17:32 --> Security Class Initialized
+DEBUG - 2025-03-05 10:17:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:17:32 --> Input Class Initialized
+INFO - 2025-03-05 10:17:32 --> Language Class Initialized
+INFO - 2025-03-05 10:17:32 --> Loader Class Initialized
+INFO - 2025-03-05 10:17:32 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:17:32 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:17:32 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:17:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:17:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:17:32 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:17:32 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:17:32 --> Controller Class Initialized
+INFO - 2025-03-05 10:17:32 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:17:32 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:17:32 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:17:52 --> Config Class Initialized
+INFO - 2025-03-05 10:17:52 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:17:52 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:17:52 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:17:52 --> URI Class Initialized
+INFO - 2025-03-05 10:17:52 --> Router Class Initialized
+INFO - 2025-03-05 10:17:52 --> Output Class Initialized
+INFO - 2025-03-05 10:17:52 --> Security Class Initialized
+DEBUG - 2025-03-05 10:17:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:17:52 --> Input Class Initialized
+INFO - 2025-03-05 10:17:52 --> Language Class Initialized
+INFO - 2025-03-05 10:17:52 --> Loader Class Initialized
+INFO - 2025-03-05 10:17:52 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:17:52 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:17:52 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:17:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:17:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:17:52 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:17:52 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:17:52 --> Controller Class Initialized
+INFO - 2025-03-05 10:17:52 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:17:52 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:17:52 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:17:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:17:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:17:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:17:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:17:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:17:52 --> Final output sent to browser
+DEBUG - 2025-03-05 10:17:52 --> Total execution time: 0.0616
+INFO - 2025-03-05 10:18:29 --> Config Class Initialized
+INFO - 2025-03-05 10:18:29 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:18:29 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:18:29 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:18:29 --> URI Class Initialized
+INFO - 2025-03-05 10:18:29 --> Router Class Initialized
+INFO - 2025-03-05 10:18:29 --> Output Class Initialized
+INFO - 2025-03-05 10:18:29 --> Security Class Initialized
+DEBUG - 2025-03-05 10:18:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:18:29 --> Input Class Initialized
+INFO - 2025-03-05 10:18:29 --> Language Class Initialized
+INFO - 2025-03-05 10:18:29 --> Loader Class Initialized
+INFO - 2025-03-05 10:18:29 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:18:29 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:18:29 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:18:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:18:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:18:29 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:18:29 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:18:29 --> Controller Class Initialized
+INFO - 2025-03-05 10:18:29 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:18:29 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:18:29 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:18:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:18:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:18:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:18:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:18:29 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:18:29 --> Final output sent to browser
+DEBUG - 2025-03-05 10:18:29 --> Total execution time: 0.0460
+INFO - 2025-03-05 10:18:32 --> Config Class Initialized
+INFO - 2025-03-05 10:18:32 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:18:32 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:18:32 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:18:32 --> URI Class Initialized
+INFO - 2025-03-05 10:18:32 --> Router Class Initialized
+INFO - 2025-03-05 10:18:32 --> Output Class Initialized
+INFO - 2025-03-05 10:18:32 --> Security Class Initialized
+DEBUG - 2025-03-05 10:18:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:18:32 --> Input Class Initialized
+INFO - 2025-03-05 10:18:32 --> Language Class Initialized
+INFO - 2025-03-05 10:18:32 --> Loader Class Initialized
+INFO - 2025-03-05 10:18:32 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:18:32 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:18:32 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:18:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:18:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:18:32 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:18:32 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:18:32 --> Controller Class Initialized
+INFO - 2025-03-05 10:18:32 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:18:32 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:18:32 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:18:32 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:18:32 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:18:32 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:18:32 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:18:32 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:18:32 --> Final output sent to browser
+DEBUG - 2025-03-05 10:18:32 --> Total execution time: 0.0688
+INFO - 2025-03-05 10:18:32 --> Config Class Initialized
+INFO - 2025-03-05 10:18:32 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:18:32 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:18:32 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:18:32 --> URI Class Initialized
+INFO - 2025-03-05 10:18:32 --> Router Class Initialized
+INFO - 2025-03-05 10:18:32 --> Output Class Initialized
+INFO - 2025-03-05 10:18:32 --> Security Class Initialized
+DEBUG - 2025-03-05 10:18:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:18:32 --> Input Class Initialized
+INFO - 2025-03-05 10:18:32 --> Language Class Initialized
+ERROR - 2025-03-05 10:18:32 --> 404 Page Not Found: Assets/img
+INFO - 2025-03-05 10:18:37 --> Config Class Initialized
+INFO - 2025-03-05 10:18:37 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:18:37 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:18:37 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:18:37 --> URI Class Initialized
+INFO - 2025-03-05 10:18:37 --> Router Class Initialized
+INFO - 2025-03-05 10:18:37 --> Output Class Initialized
+INFO - 2025-03-05 10:18:37 --> Security Class Initialized
+DEBUG - 2025-03-05 10:18:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:18:37 --> Input Class Initialized
+INFO - 2025-03-05 10:18:37 --> Language Class Initialized
+INFO - 2025-03-05 10:18:37 --> Loader Class Initialized
+INFO - 2025-03-05 10:18:37 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:18:37 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:18:37 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:18:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:18:37 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:18:37 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:18:37 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:18:37 --> Controller Class Initialized
+INFO - 2025-03-05 10:18:37 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:18:37 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:18:37 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:18:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:18:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:18:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:18:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:18:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:18:37 --> Final output sent to browser
+DEBUG - 2025-03-05 10:18:37 --> Total execution time: 0.0733
+INFO - 2025-03-05 10:22:48 --> Config Class Initialized
+INFO - 2025-03-05 10:22:48 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:22:48 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:22:48 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:22:48 --> URI Class Initialized
+INFO - 2025-03-05 10:22:48 --> Router Class Initialized
+INFO - 2025-03-05 10:22:48 --> Output Class Initialized
+INFO - 2025-03-05 10:22:48 --> Security Class Initialized
+DEBUG - 2025-03-05 10:22:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:22:48 --> Input Class Initialized
+INFO - 2025-03-05 10:22:48 --> Language Class Initialized
+INFO - 2025-03-05 10:22:48 --> Loader Class Initialized
+INFO - 2025-03-05 10:22:48 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:22:48 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:22:48 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:22:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:22:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:22:48 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:22:48 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:22:48 --> Controller Class Initialized
+INFO - 2025-03-05 10:22:48 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:22:48 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:22:48 --> Model "Pegawai_model" initialized
+ERROR - 2025-03-05 10:22:48 --> Query error: Unknown column 'p.nama' in 'field list' - Invalid query: SELECT `u`.`id` as `user_id`, `u`.`nama`, `u`.`jabatan`, `p`.`nama` as `nama_pengawas`, COUNT(k.id) as jumlah_hari, SUM(CASE WHEN k.status = "Disetujui" THEN 1 ELSE 0 END) as sudah_validasi, SUM(CASE WHEN k.status = "Pending" THEN 1 ELSE 0 END) as belum_validasi, SUM(CASE WHEN k.status = "Ditolak" THEN 1 ELSE 0 END) as ditolak
+FROM `users` `u`
+LEFT JOIN `kinerja` `k` ON `u`.`id` = `k`.`user_id`
+LEFT JOIN `pengawas` `p` ON `u`.`pengawas_id` = `p`.`id`
+WHERE MONTH(k.tanggal) = '2'
+AND YEAR(k.tanggal) = '2025'
+GROUP BY `u`.`id`
+INFO - 2025-03-05 10:22:48 --> Language file loaded: language/english/db_lang.php
+INFO - 2025-03-05 10:23:59 --> Config Class Initialized
+INFO - 2025-03-05 10:23:59 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:23:59 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:23:59 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:23:59 --> URI Class Initialized
+INFO - 2025-03-05 10:23:59 --> Router Class Initialized
+INFO - 2025-03-05 10:23:59 --> Output Class Initialized
+INFO - 2025-03-05 10:23:59 --> Security Class Initialized
+DEBUG - 2025-03-05 10:23:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:23:59 --> Input Class Initialized
+INFO - 2025-03-05 10:23:59 --> Language Class Initialized
+INFO - 2025-03-05 10:23:59 --> Loader Class Initialized
+INFO - 2025-03-05 10:23:59 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:23:59 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:23:59 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:23:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:23:59 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:23:59 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:23:59 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:23:59 --> Controller Class Initialized
+INFO - 2025-03-05 10:23:59 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:23:59 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:23:59 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:24:59 --> Config Class Initialized
+INFO - 2025-03-05 10:24:59 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:24:59 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:24:59 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:24:59 --> URI Class Initialized
+INFO - 2025-03-05 10:24:59 --> Router Class Initialized
+INFO - 2025-03-05 10:24:59 --> Output Class Initialized
+INFO - 2025-03-05 10:24:59 --> Security Class Initialized
+DEBUG - 2025-03-05 10:24:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:24:59 --> Input Class Initialized
+INFO - 2025-03-05 10:24:59 --> Language Class Initialized
+INFO - 2025-03-05 10:24:59 --> Loader Class Initialized
+INFO - 2025-03-05 10:24:59 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:24:59 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:24:59 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:24:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:24:59 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:24:59 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:24:59 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:24:59 --> Controller Class Initialized
+INFO - 2025-03-05 10:24:59 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:24:59 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:24:59 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:25:11 --> Config Class Initialized
+INFO - 2025-03-05 10:25:11 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:25:11 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:25:11 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:25:11 --> URI Class Initialized
+INFO - 2025-03-05 10:25:11 --> Router Class Initialized
+INFO - 2025-03-05 10:25:11 --> Output Class Initialized
+INFO - 2025-03-05 10:25:11 --> Security Class Initialized
+DEBUG - 2025-03-05 10:25:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:25:11 --> Input Class Initialized
+INFO - 2025-03-05 10:25:11 --> Language Class Initialized
+INFO - 2025-03-05 10:25:11 --> Loader Class Initialized
+INFO - 2025-03-05 10:25:11 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:25:11 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:25:11 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:25:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:25:11 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:25:11 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:25:11 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:25:11 --> Controller Class Initialized
+INFO - 2025-03-05 10:25:11 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:25:11 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:25:11 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:25:11 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:25:11 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:25:11 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:25:11 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:25:11 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:25:11 --> Final output sent to browser
+DEBUG - 2025-03-05 10:25:11 --> Total execution time: 0.0668
+INFO - 2025-03-05 10:26:39 --> Config Class Initialized
+INFO - 2025-03-05 10:26:39 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:26:39 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:26:39 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:26:39 --> URI Class Initialized
+INFO - 2025-03-05 10:26:39 --> Router Class Initialized
+INFO - 2025-03-05 10:26:39 --> Output Class Initialized
+INFO - 2025-03-05 10:26:39 --> Security Class Initialized
+DEBUG - 2025-03-05 10:26:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:26:39 --> Input Class Initialized
+INFO - 2025-03-05 10:26:39 --> Language Class Initialized
+INFO - 2025-03-05 10:26:39 --> Loader Class Initialized
+INFO - 2025-03-05 10:26:39 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:26:39 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:26:39 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:26:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:26:39 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:26:39 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:26:39 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:26:39 --> Controller Class Initialized
+INFO - 2025-03-05 10:26:39 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:26:39 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:26:39 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:26:39 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:26:39 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:26:39 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:26:39 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:26:39 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:26:39 --> Final output sent to browser
+DEBUG - 2025-03-05 10:26:39 --> Total execution time: 0.0517
+INFO - 2025-03-05 10:26:44 --> Config Class Initialized
+INFO - 2025-03-05 10:26:44 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:26:44 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:26:44 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:26:44 --> URI Class Initialized
+INFO - 2025-03-05 10:26:44 --> Router Class Initialized
+INFO - 2025-03-05 10:26:44 --> Output Class Initialized
+INFO - 2025-03-05 10:26:44 --> Security Class Initialized
+DEBUG - 2025-03-05 10:26:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:26:44 --> Input Class Initialized
+INFO - 2025-03-05 10:26:44 --> Language Class Initialized
+INFO - 2025-03-05 10:26:44 --> Loader Class Initialized
+INFO - 2025-03-05 10:26:44 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:26:44 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:26:44 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:26:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:26:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:26:44 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:26:44 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:26:44 --> Controller Class Initialized
+INFO - 2025-03-05 10:26:44 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:26:44 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:26:44 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:26:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:26:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:26:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:26:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:26:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:26:44 --> Final output sent to browser
+DEBUG - 2025-03-05 10:26:44 --> Total execution time: 0.0390
+INFO - 2025-03-05 10:26:50 --> Config Class Initialized
+INFO - 2025-03-05 10:26:50 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:26:50 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:26:50 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:26:50 --> URI Class Initialized
+INFO - 2025-03-05 10:26:50 --> Router Class Initialized
+INFO - 2025-03-05 10:26:50 --> Output Class Initialized
+INFO - 2025-03-05 10:26:50 --> Security Class Initialized
+DEBUG - 2025-03-05 10:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:26:50 --> Input Class Initialized
+INFO - 2025-03-05 10:26:50 --> Language Class Initialized
+INFO - 2025-03-05 10:26:50 --> Loader Class Initialized
+INFO - 2025-03-05 10:26:50 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:26:50 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:26:50 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:26:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:26:50 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:26:50 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:26:50 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:26:50 --> Controller Class Initialized
+INFO - 2025-03-05 10:26:50 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:26:50 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:26:50 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:26:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:26:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:26:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:26:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:26:50 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:26:50 --> Final output sent to browser
+DEBUG - 2025-03-05 10:26:50 --> Total execution time: 0.0479
+INFO - 2025-03-05 10:27:00 --> Config Class Initialized
+INFO - 2025-03-05 10:27:00 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:00 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:00 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:00 --> URI Class Initialized
+INFO - 2025-03-05 10:27:00 --> Router Class Initialized
+INFO - 2025-03-05 10:27:00 --> Output Class Initialized
+INFO - 2025-03-05 10:27:00 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:00 --> Input Class Initialized
+INFO - 2025-03-05 10:27:00 --> Language Class Initialized
+INFO - 2025-03-05 10:27:00 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:00 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:00 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:00 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:00 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:00 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:00 --> Controller Class Initialized
+INFO - 2025-03-05 10:27:00 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:27:00 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:00 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:27:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:27:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:27:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:27:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:27:00 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:27:00 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:00 --> Total execution time: 0.0668
+INFO - 2025-03-05 10:27:37 --> Config Class Initialized
+INFO - 2025-03-05 10:27:37 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:37 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:37 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:37 --> URI Class Initialized
+INFO - 2025-03-05 10:27:37 --> Router Class Initialized
+INFO - 2025-03-05 10:27:37 --> Output Class Initialized
+INFO - 2025-03-05 10:27:37 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:37 --> Input Class Initialized
+INFO - 2025-03-05 10:27:37 --> Language Class Initialized
+INFO - 2025-03-05 10:27:37 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:37 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:37 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:37 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:37 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:37 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:37 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:37 --> Controller Class Initialized
+INFO - 2025-03-05 10:27:37 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:27:37 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:37 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:27:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:27:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:27:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:27:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:27:37 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:27:37 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:37 --> Total execution time: 0.0492
+INFO - 2025-03-05 10:27:40 --> Config Class Initialized
+INFO - 2025-03-05 10:27:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:40 --> URI Class Initialized
+INFO - 2025-03-05 10:27:40 --> Router Class Initialized
+INFO - 2025-03-05 10:27:40 --> Output Class Initialized
+INFO - 2025-03-05 10:27:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:40 --> Input Class Initialized
+INFO - 2025-03-05 10:27:40 --> Language Class Initialized
+INFO - 2025-03-05 10:27:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:40 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:40 --> Model "User_model" initialized
+INFO - 2025-03-05 10:27:40 --> Config Class Initialized
+INFO - 2025-03-05 10:27:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:40 --> URI Class Initialized
+INFO - 2025-03-05 10:27:40 --> Router Class Initialized
+INFO - 2025-03-05 10:27:40 --> Output Class Initialized
+INFO - 2025-03-05 10:27:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:40 --> Input Class Initialized
+INFO - 2025-03-05 10:27:40 --> Language Class Initialized
+INFO - 2025-03-05 10:27:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:40 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:40 --> Model "User_model" initialized
+INFO - 2025-03-05 10:27:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:27:40 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:40 --> Total execution time: 0.0325
+INFO - 2025-03-05 10:27:44 --> Config Class Initialized
+INFO - 2025-03-05 10:27:44 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:44 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:44 --> URI Class Initialized
+INFO - 2025-03-05 10:27:44 --> Router Class Initialized
+INFO - 2025-03-05 10:27:44 --> Output Class Initialized
+INFO - 2025-03-05 10:27:44 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:44 --> Input Class Initialized
+INFO - 2025-03-05 10:27:44 --> Language Class Initialized
+INFO - 2025-03-05 10:27:44 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:44 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:44 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:44 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:44 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:44 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:44 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:44 --> Model "User_model" initialized
+INFO - 2025-03-05 10:27:44 --> Config Class Initialized
+INFO - 2025-03-05 10:27:44 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:44 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:44 --> URI Class Initialized
+INFO - 2025-03-05 10:27:44 --> Router Class Initialized
+INFO - 2025-03-05 10:27:44 --> Output Class Initialized
+INFO - 2025-03-05 10:27:44 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:44 --> Input Class Initialized
+INFO - 2025-03-05 10:27:44 --> Language Class Initialized
+INFO - 2025-03-05 10:27:44 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:44 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:44 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:44 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:44 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:44 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:44 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:44 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 10:27:44 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:27:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\user/index.php
+INFO - 2025-03-05 10:27:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:27:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:27:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:27:44 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:27:44 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:44 --> Total execution time: 0.0418
+INFO - 2025-03-05 10:27:44 --> Config Class Initialized
+INFO - 2025-03-05 10:27:44 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:44 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:44 --> URI Class Initialized
+INFO - 2025-03-05 10:27:44 --> Router Class Initialized
+INFO - 2025-03-05 10:27:44 --> Output Class Initialized
+INFO - 2025-03-05 10:27:44 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:44 --> Input Class Initialized
+INFO - 2025-03-05 10:27:44 --> Language Class Initialized
+INFO - 2025-03-05 10:27:44 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:44 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:44 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:44 --> Database Driver Class Initialized
+INFO - 2025-03-05 10:27:44 --> Config Class Initialized
+INFO - 2025-03-05 10:27:44 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:44 --> Utf8 Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:44 --> URI Class Initialized
+INFO - 2025-03-05 10:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:44 --> Router Class Initialized
+INFO - 2025-03-05 10:27:44 --> Output Class Initialized
+INFO - 2025-03-05 10:27:44 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:44 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:44 --> Controller Class Initialized
+INFO - 2025-03-05 10:27:44 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:44 --> Model "Dashboard_model" initialized
+DEBUG - 2025-03-05 10:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:44 --> Input Class Initialized
+INFO - 2025-03-05 10:27:44 --> Language Class Initialized
+INFO - 2025-03-05 10:27:44 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:44 --> Total execution time: 0.0441
+INFO - 2025-03-05 10:27:44 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:44 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:44 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:44 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:44 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:44 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:44 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:44 --> Model "Dashboard_model" initialized
+INFO - 2025-03-05 10:27:44 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:44 --> Total execution time: 0.0476
+INFO - 2025-03-05 10:27:49 --> Config Class Initialized
+INFO - 2025-03-05 10:27:49 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:49 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:49 --> URI Class Initialized
+INFO - 2025-03-05 10:27:49 --> Router Class Initialized
+INFO - 2025-03-05 10:27:49 --> Output Class Initialized
+INFO - 2025-03-05 10:27:49 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:49 --> Input Class Initialized
+INFO - 2025-03-05 10:27:49 --> Language Class Initialized
+INFO - 2025-03-05 10:27:49 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:49 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:49 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:49 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:49 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:49 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:49 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:49 --> Model "User_model" initialized
+INFO - 2025-03-05 10:27:49 --> Config Class Initialized
+INFO - 2025-03-05 10:27:49 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:27:49 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:27:49 --> URI Class Initialized
+INFO - 2025-03-05 10:27:49 --> Router Class Initialized
+INFO - 2025-03-05 10:27:49 --> Output Class Initialized
+INFO - 2025-03-05 10:27:49 --> Security Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:27:49 --> Input Class Initialized
+INFO - 2025-03-05 10:27:49 --> Language Class Initialized
+INFO - 2025-03-05 10:27:49 --> Loader Class Initialized
+INFO - 2025-03-05 10:27:49 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:27:49 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:27:49 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:27:49 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:27:49 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:27:49 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:27:49 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:27:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:27:49 --> Model "User_model" initialized
+INFO - 2025-03-05 10:27:49 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:27:49 --> Final output sent to browser
+DEBUG - 2025-03-05 10:27:49 --> Total execution time: 0.0532
+INFO - 2025-03-05 10:30:40 --> Config Class Initialized
+INFO - 2025-03-05 10:30:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:30:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:30:40 --> URI Class Initialized
+INFO - 2025-03-05 10:30:40 --> Router Class Initialized
+INFO - 2025-03-05 10:30:40 --> Output Class Initialized
+INFO - 2025-03-05 10:30:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:30:40 --> Input Class Initialized
+INFO - 2025-03-05 10:30:40 --> Language Class Initialized
+INFO - 2025-03-05 10:30:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:30:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:30:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:30:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:30:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:30:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:30:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:30:40 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:30:40 --> Model "User_model" initialized
+INFO - 2025-03-05 10:30:40 --> Config Class Initialized
+INFO - 2025-03-05 10:30:40 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:30:40 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:30:40 --> URI Class Initialized
+INFO - 2025-03-05 10:30:40 --> Router Class Initialized
+INFO - 2025-03-05 10:30:40 --> Output Class Initialized
+INFO - 2025-03-05 10:30:40 --> Security Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:30:40 --> Input Class Initialized
+INFO - 2025-03-05 10:30:40 --> Language Class Initialized
+INFO - 2025-03-05 10:30:40 --> Loader Class Initialized
+INFO - 2025-03-05 10:30:40 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:30:40 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:30:40 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:30:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:30:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:30:40 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:30:40 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:30:40 --> Controller Class Initialized
+INFO - 2025-03-05 10:30:40 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:30:40 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:30:40 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:30:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:30:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:30:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:30:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:30:40 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:30:40 --> Final output sent to browser
+DEBUG - 2025-03-05 10:30:40 --> Total execution time: 0.0590
+INFO - 2025-03-05 10:30:52 --> Config Class Initialized
+INFO - 2025-03-05 10:30:52 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:30:52 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:30:52 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:30:52 --> URI Class Initialized
+INFO - 2025-03-05 10:30:52 --> Router Class Initialized
+INFO - 2025-03-05 10:30:52 --> Output Class Initialized
+INFO - 2025-03-05 10:30:52 --> Security Class Initialized
+DEBUG - 2025-03-05 10:30:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:30:52 --> Input Class Initialized
+INFO - 2025-03-05 10:30:52 --> Language Class Initialized
+INFO - 2025-03-05 10:30:52 --> Loader Class Initialized
+INFO - 2025-03-05 10:30:52 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:30:52 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:30:52 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:30:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:30:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:30:52 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:30:52 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:30:52 --> Controller Class Initialized
+INFO - 2025-03-05 10:30:52 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:30:52 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:30:52 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:30:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:30:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:30:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:30:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:30:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:30:52 --> Final output sent to browser
+DEBUG - 2025-03-05 10:30:52 --> Total execution time: 0.0377
+INFO - 2025-03-05 10:30:55 --> Config Class Initialized
+INFO - 2025-03-05 10:30:55 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:30:55 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:30:55 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:30:55 --> URI Class Initialized
+INFO - 2025-03-05 10:30:55 --> Router Class Initialized
+INFO - 2025-03-05 10:30:55 --> Output Class Initialized
+INFO - 2025-03-05 10:30:55 --> Security Class Initialized
+DEBUG - 2025-03-05 10:30:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:30:55 --> Input Class Initialized
+INFO - 2025-03-05 10:30:55 --> Language Class Initialized
+INFO - 2025-03-05 10:30:55 --> Loader Class Initialized
+INFO - 2025-03-05 10:30:55 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:30:55 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:30:55 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:30:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:30:55 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:30:55 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:30:55 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:30:55 --> Controller Class Initialized
+INFO - 2025-03-05 10:30:55 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:30:55 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:30:55 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:30:55 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:30:55 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:30:55 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:30:55 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:30:55 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:30:55 --> Final output sent to browser
+DEBUG - 2025-03-05 10:30:55 --> Total execution time: 0.0785
+INFO - 2025-03-05 10:40:07 --> Config Class Initialized
+INFO - 2025-03-05 10:40:07 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:09 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:09 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:15 --> URI Class Initialized
+INFO - 2025-03-05 10:40:15 --> Router Class Initialized
+INFO - 2025-03-05 10:40:15 --> Output Class Initialized
+INFO - 2025-03-05 10:40:15 --> Config Class Initialized
+INFO - 2025-03-05 10:40:15 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:15 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:15 --> URI Class Initialized
+INFO - 2025-03-05 10:40:15 --> Router Class Initialized
+INFO - 2025-03-05 10:40:15 --> Output Class Initialized
+INFO - 2025-03-05 10:40:15 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:15 --> Input Class Initialized
+INFO - 2025-03-05 10:40:15 --> Language Class Initialized
+INFO - 2025-03-05 10:40:15 --> Config Class Initialized
+INFO - 2025-03-05 10:40:15 --> Hooks Class Initialized
+INFO - 2025-03-05 10:40:15 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:15 --> Input Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:15 --> Language Class Initialized
+INFO - 2025-03-05 10:40:15 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:15 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:15 --> URI Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:15 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:15 --> Router Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:15 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:15 --> Output Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:15 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:15 --> Input Class Initialized
+INFO - 2025-03-05 10:40:15 --> Language Class Initialized
+INFO - 2025-03-05 10:40:15 --> Database Driver Class Initialized
+INFO - 2025-03-05 10:40:15 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:15 --> Database Driver Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:15 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:15 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2025-03-05 10:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:15 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:15 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:15 --> Controller Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:15 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:15 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:15 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:40:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2025-03-05 10:40:15 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:15 --> Model "User_model" initialized
+INFO - 2025-03-05 10:40:15 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:40:15 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:15 --> Total execution time: 7.5478
+INFO - 2025-03-05 10:40:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:15 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:15 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:15 --> Controller Class Initialized
+INFO - 2025-03-05 10:40:15 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:40:15 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:15 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:40:15 --> Config Class Initialized
+INFO - 2025-03-05 10:40:15 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:15 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:40:15 --> URI Class Initialized
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:40:15 --> Router Class Initialized
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:40:15 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:15 --> Total execution time: 0.1178
+INFO - 2025-03-05 10:40:15 --> Output Class Initialized
+INFO - 2025-03-05 10:40:15 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:15 --> Input Class Initialized
+INFO - 2025-03-05 10:40:15 --> Language Class Initialized
+INFO - 2025-03-05 10:40:15 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:15 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:15 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:15 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:15 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:15 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:15 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:15 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:40:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:15 --> Model "User_model" initialized
+INFO - 2025-03-05 10:40:15 --> File loaded: C:\xampp\htdocs\ekin\application\views\login_view.php
+INFO - 2025-03-05 10:40:15 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:15 --> Total execution time: 0.0435
+INFO - 2025-03-05 10:40:20 --> Config Class Initialized
+INFO - 2025-03-05 10:40:20 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:20 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:20 --> URI Class Initialized
+INFO - 2025-03-05 10:40:20 --> Router Class Initialized
+INFO - 2025-03-05 10:40:20 --> Output Class Initialized
+INFO - 2025-03-05 10:40:20 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:20 --> Input Class Initialized
+INFO - 2025-03-05 10:40:20 --> Language Class Initialized
+INFO - 2025-03-05 10:40:20 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:20 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:20 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:20 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:20 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:20 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:20 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:20 --> Controller Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:20 --> Model "User_model" initialized
+INFO - 2025-03-05 10:40:20 --> Config Class Initialized
+INFO - 2025-03-05 10:40:20 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:20 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:20 --> URI Class Initialized
+INFO - 2025-03-05 10:40:20 --> Router Class Initialized
+INFO - 2025-03-05 10:40:20 --> Output Class Initialized
+INFO - 2025-03-05 10:40:20 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:20 --> Input Class Initialized
+INFO - 2025-03-05 10:40:20 --> Language Class Initialized
+INFO - 2025-03-05 10:40:20 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:20 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:20 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:20 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:20 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:20 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:20 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:20 --> Controller Class Initialized
+INFO - 2025-03-05 10:40:20 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:40:20 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:20 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:40:20 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:40:20 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:40:20 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:40:20 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:40:20 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:40:20 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:20 --> Total execution time: 0.0384
+INFO - 2025-03-05 10:40:24 --> Config Class Initialized
+INFO - 2025-03-05 10:40:24 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:24 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:24 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:24 --> URI Class Initialized
+INFO - 2025-03-05 10:40:24 --> Router Class Initialized
+INFO - 2025-03-05 10:40:24 --> Output Class Initialized
+INFO - 2025-03-05 10:40:24 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:24 --> Input Class Initialized
+INFO - 2025-03-05 10:40:24 --> Language Class Initialized
+INFO - 2025-03-05 10:40:24 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:24 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:24 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:24 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:24 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:24 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:24 --> Controller Class Initialized
+INFO - 2025-03-05 10:40:24 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:40:24 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:24 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:40:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/tampil.php
+INFO - 2025-03-05 10:40:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:40:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:40:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:40:24 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:40:24 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:24 --> Total execution time: 0.0477
+INFO - 2025-03-05 10:40:26 --> Config Class Initialized
+INFO - 2025-03-05 10:40:26 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:40:26 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:40:26 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:40:26 --> URI Class Initialized
+INFO - 2025-03-05 10:40:26 --> Router Class Initialized
+INFO - 2025-03-05 10:40:26 --> Output Class Initialized
+INFO - 2025-03-05 10:40:26 --> Security Class Initialized
+DEBUG - 2025-03-05 10:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:40:26 --> Input Class Initialized
+INFO - 2025-03-05 10:40:26 --> Language Class Initialized
+INFO - 2025-03-05 10:40:26 --> Loader Class Initialized
+INFO - 2025-03-05 10:40:26 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:40:26 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:40:26 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:40:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:40:26 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:40:26 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:40:26 --> Controller Class Initialized
+INFO - 2025-03-05 10:40:26 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:40:26 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:40:26 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:40:26 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:40:26 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:40:26 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:40:26 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:40:26 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:40:26 --> Final output sent to browser
+DEBUG - 2025-03-05 10:40:26 --> Total execution time: 0.0522
+INFO - 2025-03-05 10:41:52 --> Config Class Initialized
+INFO - 2025-03-05 10:41:52 --> Hooks Class Initialized
+DEBUG - 2025-03-05 10:41:52 --> UTF-8 Support Enabled
+INFO - 2025-03-05 10:41:52 --> Utf8 Class Initialized
+INFO - 2025-03-05 10:41:52 --> URI Class Initialized
+INFO - 2025-03-05 10:41:52 --> Router Class Initialized
+INFO - 2025-03-05 10:41:52 --> Output Class Initialized
+INFO - 2025-03-05 10:41:52 --> Security Class Initialized
+DEBUG - 2025-03-05 10:41:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-05 10:41:52 --> Input Class Initialized
+INFO - 2025-03-05 10:41:52 --> Language Class Initialized
+INFO - 2025-03-05 10:41:52 --> Loader Class Initialized
+INFO - 2025-03-05 10:41:52 --> Helper loaded: url_helper
+INFO - 2025-03-05 10:41:52 --> Helper loaded: file_helper
+INFO - 2025-03-05 10:41:52 --> Database Driver Class Initialized
+DEBUG - 2025-03-05 10:41:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-03-05 10:41:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-05 10:41:52 --> Helper loaded: form_helper
+INFO - 2025-03-05 10:41:52 --> Form Validation Class Initialized
+INFO - 2025-03-05 10:41:52 --> Controller Class Initialized
+INFO - 2025-03-05 10:41:52 --> Model "Pimpinan_model" initialized
+DEBUG - 2025-03-05 10:41:52 --> Form_validation class already loaded. Second attempt ignored.
+INFO - 2025-03-05 10:41:52 --> Model "Pegawai_model" initialized
+INFO - 2025-03-05 10:41:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\pimpinan/dashboard.php
+INFO - 2025-03-05 10:41:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/navbar.php
+INFO - 2025-03-05 10:41:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/sidebar.php
+INFO - 2025-03-05 10:41:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/footer.php
+INFO - 2025-03-05 10:41:52 --> File loaded: C:\xampp\htdocs\ekin\application\views\layouts/main.php
+INFO - 2025-03-05 10:41:52 --> Final output sent to browser
+DEBUG - 2025-03-05 10:41:52 --> Total execution time: 0.0382

@@ -65,50 +65,71 @@
     </table>
 
     <!-- Tabel Kinerja -->
-    <table>
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Hari / Tanggal</th>
-                <th>Pukul</th>
-                <th>Kegiatan</th>
-                <th>Dokumentasi</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php if (!empty($kinerja_data)) : ?>
-                <?php
-                $no = 1;
-                foreach ($kinerja_data as $row) :
-                    $hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
-                    $tanggal = $hari[date('w', strtotime($row->tanggal))] . ", " . date('d-m-Y', strtotime($row->tanggal));
-                ?>
-                    <tr>
-                        <td><?= $no++ ?></td>
-                        <td><?= $tanggal ?></td>
-                        <td><?= date('H:i', strtotime($row->jam_mulai)) . " - " . date('H:i', strtotime($row->jam_selesai)); ?></td>
-                        <td><?= htmlspecialchars($row->kinerja); ?></td>
-                        <td class="text-center">
-                            <?php
-                            $image_path = FCPATH . 'uploads/kinerja/' . $row->foto;
-                            if (!empty($row->foto) && file_exists($image_path)) {
-                                $imageData = base64_encode(file_get_contents($image_path));
-                                $src = 'data:image/jpeg;base64,' . $imageData;
-                            ?>
-                                <img src="<?= $src ?>" alt="Dokumentasi">
-                            <?php } else { ?>
-                                <p>Gambar tidak ditemukan</p>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
-            <?php else : ?>
+    <table id="dataTable" class="display">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Hari / Tanggal</th>
+            <th>Pukul</th>
+            <th>Kegiatan</th>
+            <th>Dokumentasi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        if (!empty($kinerja_data)) :
+            $no = 1;
+            $last_tanggal = null; // Variabel untuk menyimpan tanggal sebelumnya
+            $first_image = null;  // Variabel untuk menyimpan foto pertama setiap tanggal
+
+            foreach ($kinerja_data as $row) :
+                $hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+                $tanggal = $hari[date('w', strtotime($row->tanggal))] . ", " . date('d-m-Y', strtotime($row->tanggal));
+
+                // Cek apakah tanggal sudah berubah
+                $show_date = ($tanggal !== $last_tanggal);
+                
+                // Ambil foto pertama pada tanggal tersebut
+                if ($show_date) {
+                    $image_path = FCPATH . 'uploads/kinerja/' . $row->foto;
+                    if (!empty($row->foto) && file_exists($image_path)) {
+                        $imageData = base64_encode(file_get_contents($image_path));
+                        $first_image = 'data:image/jpeg;base64,' . $imageData;
+                    } else {
+                        $first_image = null;
+                    }
+                }
+        ?>
                 <tr>
-                    <td colspan="5" class="text-center"><b>Tidak ada data kinerja tersedia</b></td>
+                    <?php if ($show_date) : ?>
+                        <td rowspan="<?= count(array_filter($kinerja_data, fn($r) => $r->tanggal == $row->tanggal)); ?>"><?= $no++ ?></td>
+                        <td rowspan="<?= count(array_filter($kinerja_data, fn($r) => $r->tanggal == $row->tanggal)); ?>"><?= $tanggal ?></td>
+                    <?php endif; ?>
+
+                    <td><?= date('H:i', strtotime($row->jam_mulai)) . " - " . date('H:i', strtotime($row->jam_selesai)); ?></td>
+                    <td><?= htmlspecialchars($row->kinerja); ?></td>
+
+                    <?php if ($show_date) : ?>
+                        <td rowspan="<?= count(array_filter($kinerja_data, fn($r) => $r->tanggal == $row->tanggal)); ?>" class="text-center">
+                            <?php if ($first_image) : ?>
+                                <img src="<?= $first_image ?>" alt="Dokumentasi" style="max-width: 100px;">
+                            <?php else : ?>
+                                <p>Gambar tidak ditemukan</p>
+                            <?php endif; ?>
+                        </td>
+                    <?php endif; ?>
                 </tr>
-            <?php endif; ?>
-        </tbody>
-    </table>
+        <?php
+                $last_tanggal = $tanggal; // Update tanggal terakhir
+            endforeach;
+        else :
+        ?>
+            <tr>
+                <td colspan="5" class="text-center"><b>Tidak ada data kinerja tersedia</b></td>
+            </tr>
+        <?php endif; ?>
+    </tbody>
+</table>
 
     <!-- Tanda Tangan -->
     <br><br>
@@ -129,7 +150,9 @@
             <td colspan="2">
                 <br>
                 <b>Mengetahui</b><br>
-                Kepala Satuan Pengawas Internal<br><br><br><br><br>
+                <?= htmlspecialchars($user['satuan'] ?? '-') ?><br>
+                Unit Pengelola Terminal Terpadu Pulo Gebang<br>
+                Dinas Perhubungan Provinsi DKI Jakarta<br></b><br><br><br><br><br>
                 <?= htmlspecialchars($user['nama_pimpinan'] ?? '-') ?><br>
                 <b>NIP:</b> <?= htmlspecialchars($user['nip_pimpinan'] ?? '-') ?>
             </td>

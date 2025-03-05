@@ -28,23 +28,27 @@ public function get_users_by_jabatan($jabatan) {
     }
 
     public function get_kinerja_by_user_id($user_id) {
+        $this->db->select('id, tanggal, jam_mulai, jam_selesai, kinerja, foto, status');
+        $this->db->from('kinerja');
         $this->db->where('user_id', $user_id);
-        $query = $this->db->get('kinerja');
+        $this->db->order_by('tanggal', 'DESC');
+    
+        $query = $this->db->get();
         return $query->result_array();
     }
 
 
     public function get_rekap_kinerja($bulan, $tahun) {
         $this->db->select('
-             pegawai.user_id,
-            pegawai.nama, 
-            pegawai.jabatan, 
-            pegawai.id_pengawas,
-            pengawas.nama_pengawas, 
-            COUNT(kinerja.id) as jumlah_hari,
-            SUM(CASE WHEN kinerja.status = "Disetujui" THEN 1 ELSE 0 END) as sudah_validasi,
-            SUM(CASE WHEN kinerja.status = "Belum Validasi" THEN 1 ELSE 0 END) as belum_validasi,
-            SUM(CASE WHEN kinerja.status = "Ditolak" THEN 1 ELSE 0 END) as ditolak
+                pegawai.user_id,
+                pegawai.nama, 
+                pegawai.jabatan, 
+                pegawai.id_pengawas,
+                pengawas.nama_pengawas, 
+                COUNT(kinerja.id) as jumlah_hari,
+                SUM(CASE WHEN kinerja.status = "Disetujui" THEN 1 ELSE 0 END) as sudah_validasi,
+                SUM(CASE WHEN kinerja.status = "Belum Validasi" THEN 1 ELSE 0 END) as belum_validasi,
+                SUM(CASE WHEN kinerja.status = "Ditolak" THEN 1 ELSE 0 END) as ditolak
         ');
         $this->db->from('pegawai');
         $this->db->join('pengawas', 'pengawas.id = pegawai.id_pengawas', 'left');
