@@ -1,4 +1,4 @@
 
 <footer class="main-footer">
-    <strong>© 2025 Terminal Terpadu Pulo Gebang Dinas Perhubungan .</strong> by Tim IT.
+    <strong>© 2025 SICEKAT (Sistem E-Kinerja PJLP Cempaka Putih).</strong> by__.
 </footer>

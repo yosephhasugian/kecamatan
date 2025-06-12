@@ -75,5 +75,6 @@ class Pegawai_model extends CI_Model {
         }
     }
     
+    
 }
 ?>

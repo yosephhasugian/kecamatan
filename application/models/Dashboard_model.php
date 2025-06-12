@@ -21,15 +21,17 @@ public function getUserById($user_id) {
         p.nama, 
         p.id_pjlp, 
         p.jabatan, 
+        jabatan.nama_jabatan,
         pengawas.nama_pengawas, 
         pengawas.nip_pengawas, 
         pimpinan.nama_pimpinan, 
         pimpinan.nip_pimpinan,
-         pimpinan.satuan
+        pimpinan.satuan
     ');
     $this->db->from('pegawai p');
     $this->db->join('pengawas', 'pengawas.id = p.id_pengawas', 'left');
     $this->db->join('pimpinan', 'pimpinan.id = p.pimpinan', 'left');
+    $this->db->join('jabatan', 'jabatan.id = p.jabatan', 'left');
     $this->db->where('p.user_id', $user_id);
 
     $query = $this->db->get();
@@ -88,12 +90,23 @@ public function count_kinerja_status($user_id)
     // Hitung status kinerja
     public function get_laporan_by_user($user_id) {
         $this->db->where('user_id', $user_id);
-        $this->db->order_by('tanggal', 'ASC'); // Urutkan berdasarkan tanggal
+        $this->db->order_by('tanggal', 'DESC'); // Urutkan berdasarkan tanggal
         return $this->db->get('kinerja')->result();
     }
+
+    // Ambil kinerja berdasarkan filter tanggal
+public function get_laporan_by_user_and_date($user_id, $start_date, $end_date) {
+    return $this->db->where('user_id', $user_id)
+        ->where('tanggal >=', $start_date)
+        ->where('tanggal <=', $end_date)
+        ->order_by('tanggal', 'DESC')
+        ->get('kinerja')
+        ->result();
+}
     
     public function get_laporan()
     {
+        
     $query = $this->db->get('kinerja');
     return $query->result(); // Mengembalikan hasil query ke controller
 }

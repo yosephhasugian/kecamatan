@@ -51,6 +51,26 @@
         .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
             background: #1a252f !important;
         }
+        @media (max-width: 576px) {
+        h3, h4 {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .table-container {
+            padding: 10px;
+        }
+
+        table th, table td {
+            font-size: 12px;
+            padding: 8px 4px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -106,7 +126,7 @@
                         <th>Nama</th>
                         <th>Jabatan</th>
                         <th>Pengawas</th>
-                        <th>Pengisian Kinerja</th>
+                        <th>Aktivitas</th>
                         <th>Sudah Validasi</th>
                         <th>Belum Validasi</th>
                         <th>Ditolak</th>
@@ -123,9 +143,9 @@
                     <tr>
                         <td><?= $no++; ?></td>
                         <td><?= htmlspecialchars($row->nama); ?></td>
-                        <td><?= htmlspecialchars($row->jabatan); ?></td>
+                        <td><?= htmlspecialchars($row->nama_jabatan); ?></td>
                         <td><?= htmlspecialchars($row->nama_pengawas); ?></td>
-                        <td><?= $row->jumlah_hari ?? 0; ?> Kegiatan</td>
+                        <td><?= $row->jumlah_hari ?? 0; ?> Hari</td>
                         <td><span class="badge bg-success"><?= $row->sudah_validasi ?? 0; ?> Hari</span></td>
                         <td><span class="badge bg-warning"><?= $row->belum_validasi ?? 0; ?> Hari</span></td>
                         <td><span class="badge bg-danger"><?= $row->ditolak ?? 0; ?> Hari</span></td>

@@ -41,6 +41,7 @@ public function get_kinerja_by_user_id($user_id) {
     $this->db->select('*');
     $this->db->from('kinerja');
     $this->db->where('user_id', $user_id);
+    $this->db->where('status !=', 'Disetujui'); // Jangan ambil yang sudah disetujui
     $this->db->order_by('tanggal', 'DESC');
 
     $query = $this->db->get();

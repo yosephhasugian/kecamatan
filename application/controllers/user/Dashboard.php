@@ -153,26 +153,35 @@ class Dashboard extends CI_Controller {
         $this->form_validation->set_rules('jam_mulai', 'Jam Mulai', 'required');
         $this->form_validation->set_rules('jam_selesai', 'Jam Selesai', 'required');
         $this->form_validation->set_rules('kinerja', 'Kinerja', 'required');
-
-            // Cek apakah foto diunggah
-    if (empty($_FILES['foto']['name'])) {
-        echo json_encode(["status" => "error", "message" => "Foto wajib diunggah!"]);
-        return;
-    }
-
+    
+        // Cek apakah foto diunggah
+        if (empty($_FILES['foto']['name'])) {
+            echo json_encode(["status" => "error", "message" => "Foto wajib diunggah!"]);
+            return;
+        }
+    
         // Cek ukuran file
         if ($_FILES['foto']['size'] > 5120000) { // 5MB
             echo json_encode(["status" => "error", "message" => "File terlalu besar! Maksimal 5MB."]);
             return;
         }
-
     
         if ($this->form_validation->run() == FALSE) {
             echo json_encode(["status" => "error", "message" => validation_errors()]);
             return;
         }
     
-        // **1. PROSES UPLOAD GAMBAR**
+        // **1. Cek Durasi Waktu**
+        $jam_mulai = $this->input->post('jam_mulai');
+        $jam_selesai = $this->input->post('jam_selesai');
+        $startTime = strtotime($jam_mulai);
+        $endTime = strtotime($jam_selesai);
+        $durasi = ($endTime - $startTime) / 3600; // Durasi dalam jam (perbedaan dalam detik dibagi 3600 untuk jam)
+    
+        // Cek apakah durasi lebih dari 8 dan kurang dari 10 jam
+       
+    
+        // **2. PROSES UPLOAD GAMBAR**
         $foto = NULL;
         if (!empty($_FILES['foto']['name'])) { // Cek apakah ada file diunggah
             $config['upload_path']   = './uploads/kinerja/'; // Folder penyimpanan
@@ -190,7 +199,7 @@ class Dashboard extends CI_Controller {
             }
         }
     
-        // **2. SIMPAN DATA KE DATABASE**
+        // **3. SIMPAN DATA KE DATABASE**
         $data = [
             'tanggal'    => $this->input->post('tanggal'),
             'jam_mulai'  => $this->input->post('jam_mulai'),
@@ -214,33 +223,69 @@ class Dashboard extends CI_Controller {
 
     
 
-public function get_kinerja_status() {
-    $user_id = $this->session->userdata('user_id'); // Pastikan hanya data user tertentu
-    if (!$user_id) {
-        echo json_encode(["error" => "User tidak ditemukan"]);
-        return;
-    }
-
-    $status = $this->Dashboard_model->count_kinerja_status($user_id);
+    public function get_kinerja_status() {
+        $user_id = $this->session->userdata('user_id'); // Pastikan hanya data user tertentu
+        if (!$user_id) {
+            echo json_encode(["error" => "User tidak ditemukan"]);
+            return;
+        }
     
-    // Hitung total aktivitas berdasarkan user_id
-    $this->db->where('user_id', $user_id);
-    $total_aktivitas = $this->db->count_all_results('kinerja');
-
-    // Hitung total waktu kerja user
-    $this->db->select("SUM(TIMESTAMPDIFF(MINUTE, jam_mulai, jam_selesai)) as total_waktu");
-    $this->db->where('user_id', $user_id);
-    $query = $this->db->get("kinerja")->row();
-    $total_waktu = $query->total_waktu ?? 0;
-
-    $response = array_merge($status, [
-        "total_aktivitas" => $total_aktivitas,
-        "total_waktu" => $total_waktu
-    ]);
-
-    echo json_encode($response);
-}
-
+        // Ambil bulan dan tahun sekarang
+        $current_month = date('m'); // Bulan saat ini
+        $current_year = date('Y');  // Tahun saat ini
+    
+        // Tentukan bulan dan tahun untuk bulan sebelumnya
+        $previous_month = $current_month - 1;
+        if ($previous_month == 0) {  // Jika bulan saat ini adalah Januari (bulan 1), maka bulan sebelumnya adalah Desember tahun sebelumnya
+            $previous_month = 12;
+            $previous_year = $current_year - 1;
+        } else {
+            $previous_year = $current_year;
+        }
+    
+        // Hitung total aktivitas berdasarkan user_id dan bulan/tahun sebelumnya
+        $this->db->where('user_id', $user_id);
+        $this->db->where('MONTH(tanggal)', $previous_month); // Filter berdasarkan bulan
+        $this->db->where('YEAR(tanggal)', $previous_year);  // Filter berdasarkan tahun
+        $total_aktivitas = $this->db->count_all_results('kinerja');
+    
+        // Hitung total waktu kerja user untuk bulan sebelumnya (dalam menit)
+        $this->db->select("SUM(TIMESTAMPDIFF(MINUTE, jam_mulai, jam_selesai)) as total_waktu");
+        $this->db->where('user_id', $user_id);
+        $this->db->where('MONTH(tanggal)', $previous_month); // Filter berdasarkan bulan
+        $this->db->where('YEAR(tanggal)', $previous_year);  // Filter berdasarkan tahun
+        $query = $this->db->get("kinerja")->row();
+        $total_waktu_menit = $query->total_waktu ?? 0; // Default ke 0 jika tidak ada data
+    
+        // Konversi total waktu kerja dari menit ke jam
+        $total_waktu_jam = round($total_waktu_menit / 60, 2); // Pembulatan 2 desimal
+    
+        // Hitung status kinerja (Belum Validasi, Disetujui, Ditolak) di bulan sebelumnya
+        $this->db->select('status, COUNT(*) as jumlah');
+        $this->db->where('user_id', $user_id);
+        $this->db->where('MONTH(tanggal)', $previous_month);
+        $this->db->where('YEAR(tanggal)', $previous_year);
+        $this->db->group_by('status');
+        $query = $this->db->get('kinerja');
+        $status_counts = $query->result_array();
+    
+        // Memasukkan status counts ke dalam array hasil
+        $status_data = [];
+        foreach ($status_counts as $status_count) {
+            $status_data[] = [
+                'status' => $status_count['status'],
+                'jumlah' => (int) $status_count['jumlah']
+            ];
+        }
+    
+        // Gabungkan semua data ke dalam respons
+        $response = array_merge([
+            "total_aktivitas" => $total_aktivitas,
+            "total_waktu_jam" => $total_waktu_jam
+        ], $status_data);
+    
+        echo json_encode($response);
+    }
 
 
 public function laporan() {
@@ -288,36 +333,49 @@ public function laporan() {
 
 
 
-public function update_kinerja() {
+public function update_kinerja()
+{
     $id = $this->input->post('id');
     $tanggal = $this->input->post('tanggal');
     $jam_mulai = $this->input->post('jam_mulai');
     $jam_selesai = $this->input->post('jam_selesai');
     $kinerja = $this->input->post('kinerja');
 
+    // Ambil data lama (khusus foto)
+    $kinerja_lama = $this->db->get_where('kinerja', ['id' => $id])->row();
+    $foto_lama = $kinerja_lama ? $kinerja_lama->foto : '';
+
     $data = array(
-        'tanggal' => $tanggal,
-        'jam_mulai' => $jam_mulai,
-        'jam_selesai' => $jam_selesai,
-        'kinerja' => $kinerja,
-        'foto'        => $foto,
-        'user_id'     => $this->session->userdata('user_id'), // Tambahkan baris ini
-        'status'      => "Belum Validasi" // Tambahkan baris ini
+        'tanggal'    => $tanggal,
+        'jam_mulai'  => $jam_mulai,
+        'jam_selesai'=> $jam_selesai,
+        'kinerja'    => $kinerja,
+        'user_id'    => $this->session->userdata('user_id'),
+        'status'     => "Belum Validasi"
     );
 
     // Upload foto jika ada
     if (!empty($_FILES['foto']['name'])) {
-        $config['upload_path'] = './uploads/kinerja/';
+        $config['upload_path']   = './uploads/kinerja/';
         $config['allowed_types'] = 'gif|jpg|png|jpeg';
-        $config['max_size'] = 2048;
+        $config['max_size']      = 2048;
         $this->load->library('upload', $config);
+
         if ($this->upload->do_upload('foto')) {
-            $upload_data = $this->upload->data();
-            $data['foto'] = $upload_data['file_name'];
+            $upload_data    = $this->upload->data();
+            $data['foto']   = $upload_data['file_name'];
+
+            // Hapus file lama kalau perlu (opsional)
+            if (!empty($foto_lama) && file_exists('./uploads/kinerja/' . $foto_lama)) {
+                unlink('./uploads/kinerja/' . $foto_lama);
+            }
         } else {
-            // Handle upload error (optional)
-            echo $this->upload->display_errors();
+            // Kalau upload gagal, tetap pakai foto lama
+            $data['foto'] = $foto_lama;
         }
+    } else {
+        // Tidak ada file baru, pakai foto lama
+        $data['foto'] = $foto_lama;
     }
 
     $this->db->where('id', $id);
@@ -329,29 +387,30 @@ public function update_kinerja() {
 public function print_laporan() {
     $user_id = $this->session->userdata('user_id'); // Ambil user ID dari session
     if (!$user_id) {
-        redirect('auth/login'); // Redirect jika belum login
+        redirect('auth/login'); // Redirect kalau belum login
     }
 
-    // Load model
     $this->load->model('Dashboard_model');
 
-    // Ambil data pegawai berdasarkan user_id
+    // Ambil data user
     $data['user'] = $this->Dashboard_model->getUserById($user_id);
 
-    // Ambil data kinerja sesuai user yang login
-    $data['kinerja_data'] = $this->Dashboard_model->get_laporan_by_user($user_id);
+    // Ambil filter tanggal dari GET
+    $tanggal_mulai = $this->input->get('tanggal_mulai');
+    $tanggal_selesai = $this->input->get('tanggal_selesai');
 
-    // Tentukan periode
-    $data['periode'] = "Tidak Ada Data";
-    if (!empty($data['kinerja_data'])) {
-        $first_date = $data['kinerja_data'][0]->tanggal;
-        $data['periode'] = date('F Y', strtotime($first_date));
+    if ($tanggal_mulai && $tanggal_selesai) {
+        // Kalau ada filter tanggal
+        $data['kinerja_data'] = $this->Dashboard_model->get_laporan_by_user_and_date($user_id, $tanggal_mulai, $tanggal_selesai);
+        $data['periode'] = date('d-m-Y', strtotime($tanggal_mulai)) . " s/d " . date('d-m-Y', strtotime($tanggal_selesai));
+    } else {
+        // Kalau tidak ada filter tanggal
+        $data['kinerja_data'] = $this->Dashboard_model->get_laporan_by_user($user_id);
+        $data['periode'] = "Semua Data";
     }
 
-    // Set judul halaman
     $data['title'] = "Laporan Kinerja";
 
-    // Muat view cetak
     $this->load->view('user/print_laporan', $data);
 }
 

@@ -7,6 +7,7 @@ class Dashboard extends CI_Controller {
         $this->load->helper('url');
         $this->load->library('session');
         $this->load->model('Dashboard_model'); // Pastikan model dimuat
+        
 
         // Cek apakah user sudah login dan memiliki role user
         if (!$this->session->userdata('username') || $this->session->userdata('role') !== 'admin') {
@@ -34,6 +35,22 @@ class Dashboard extends CI_Controller {
 
         // Load view `dashboard_lihat` untuk user
         $data['content'] = $this->load->view('user/lihat', $data, TRUE);
+        $this->load->view('layouts/main', $data);
+    }
+
+    public function password() {
+        $user_id = $this->session->userdata('user_id'); // Ambil user ID dari session
+        if (!$user_id) {
+            redirect('auth/login'); // Redirect jika belum login
+        }
+        $this->load->model('Pegawai_model');
+       
+        // Ambil data kinerja sesuai user yang login
+        $data['kinerja_data'] = $this->Dashboard_model->get_laporan_by_user($user_id);
+        $data['title'] = "Lihat Kinerja";
+
+        // Load view `dashboard_lihat` untuk user
+        $data['content'] = $this->load->view('user/password', $data, TRUE);
         $this->load->view('layouts/main', $data);
     }
    

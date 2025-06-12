@@ -37,6 +37,17 @@ public function get_users_by_jabatan($jabatan) {
         return $query->result_array();
     }
 
+    public function get_kinerja_user_only() {
+    $this->db->select('kinerja.*, pegawai.nama, pegawai.role');
+    $this->db->from('kinerja');
+    $this->db->join('pegawai', 'pegawai.user_id = kinerja.user_id');
+    $this->db->join('jabatan', 'jabatan.id = pegawai.jabatan', 'left');
+    $this->db->where('pegawai.role', 'user'); // ✅ INI FILTER UTAMA
+    $this->db->order_by('kinerja.tanggal', 'DESC');
+
+    return $this->db->get()->result();
+}
+
 
     public function get_rekap_kinerja($bulan, $tahun) {
         $this->db->select('
@@ -44,7 +55,8 @@ public function get_users_by_jabatan($jabatan) {
                 pegawai.nama, 
                 pegawai.jabatan, 
                 pegawai.id_pengawas,
-                pengawas.nama_pengawas, 
+                pengawas.nama_pengawas,
+                jabatan.nama_jabatan,
                 COUNT(kinerja.id) as jumlah_hari,
                 SUM(CASE WHEN kinerja.status = "Disetujui" THEN 1 ELSE 0 END) as sudah_validasi,
                 SUM(CASE WHEN kinerja.status = "Belum Validasi" THEN 1 ELSE 0 END) as belum_validasi,
@@ -53,6 +65,7 @@ public function get_users_by_jabatan($jabatan) {
         $this->db->from('pegawai');
         $this->db->join('pengawas', 'pengawas.id = pegawai.id_pengawas', 'left');
         $this->db->join('kinerja', 'kinerja.user_id = pegawai.user_id', 'left');
+        $this->db->join('jabatan', 'jabatan.id = pegawai.jabatan', 'left');
     
         // Filter hanya data kinerja berdasarkan bulan & tahun
         if (!empty($bulan) && !empty($tahun)) {

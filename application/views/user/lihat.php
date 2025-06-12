@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalender Kinerja</title>
+    <title>Daftar Kinerja</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
     <style>
         body { background-color: #f9f9f9; }
@@ -28,119 +30,130 @@
 </head>
 <body>
 <div class="container">
-        <div class="table-container">
-            <h4>Daftar Kinerja</h4>
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Tanggal</th>
-                        <th>Pukul</th>
-                        <th>Kegiatan</th>
-                        <th>Dokumentasi</th>
-                        <th>Status</th>
-                        <th>Aksi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php if (!empty($kinerja_data)): ?>
-                        <?php $no = 1; foreach ($kinerja_data as $kinerja): ?>
-                            <tr>
-                                <td><?= $no++; ?></td>
-                                <?php 
-                                    $hari_indonesia = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
-                                    $tanggal = $hari_indonesia[date('w', strtotime($kinerja->tanggal))] . ", " . date('d-m-Y', strtotime($kinerja->tanggal));
-                                ?>
-                                <td><?= $tanggal; ?></td>
-                                <td><?= $kinerja->jam_mulai . " - " . $kinerja->jam_selesai; ?></td>
-                                <td><?= $kinerja->kinerja; ?></td>
-                                <td>
-                                    <?php if (!empty($kinerja->foto) && file_exists(FCPATH . 'uploads/kinerja/' . $kinerja->foto)): ?>
-                                        <img src="<?= base_url('uploads/kinerja/' . $kinerja->foto); ?>" class="img-preview">
-                                    <?php else: ?>
-                                        <small class="text-muted">Tidak ada foto</small>
-                                    <?php endif; ?>
-                                </td>
-                                <td>
-                                    <?php if ($kinerja->status == 'Belum Validasi'): ?>
-                                        <span class="badge bg-warning">Belum Validasi</span>
-                                    <?php elseif ($kinerja->status == 'Disetujui'): ?>
-                                        <span class="badge bg-success">Disetujui</span>
-                                    <?php elseif ($kinerja->status == 'Ditolak'): ?>
-                                        <span class="badge bg-danger">Ditolak</span>
-                                    <?php endif; ?>
-                                </td>
-                                <td>
-                                    <?php if ($kinerja->status == 'Belum Validasi'): ?>
-                                        <button class="btn btn-warning btn-sm btn-edit" 
-                                                data-bs-toggle="modal" 
-                                                data-bs-target="#editModal"
-                                                data-id="<?= $kinerja->id; ?>"
-                                                data-tanggal="<?= $kinerja->tanggal; ?>"
-                                                data-jam-mulai="<?= $kinerja->jam_mulai; ?>"
-                                                data-jam-selesai="<?= $kinerja->jam_selesai; ?>"
-                                                data-kinerja="<?= $kinerja->kinerja; ?>">
-                                            Edit
-                                        </button>
-                                        <button class="btn btn-danger btn-sm btn-hapus" data-id="<?= $kinerja->id; ?>">Hapus</button>
-                                    <?php else: ?>
-                                        <span class="badge bg-success">Disetujui</span>
-                                    <?php endif; ?>
-                                </td>
-                            </tr>
-                        <?php endforeach; ?>
-                    <?php else: ?>
-                        <tr><td colspan="7" class="text-center">Tidak ada data kinerja.</td></tr>
-                    <?php endif; ?>
-                </tbody>
-            </table>
-        </div>
+    <div class="table-container">
+        <h4>Daftar Kinerja</h4>
+        <table id="kinerjaTable" class="table table-bordered"> <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Tanggal</th>
+                    <th>Pukul</th>
+                    <th>Kegiatan</th>
+                    <th>Dokumentasi</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php if (!empty($kinerja_data)): ?>
+                    <?php $no = 1; foreach ($kinerja_data as $kinerja): ?>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <?php
+                                $hari_indonesia = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+                                $tanggal = $hari_indonesia[date('w', strtotime($kinerja->tanggal))] . ", " . date('d-m-Y', strtotime($kinerja->tanggal));
+                            ?>
+                            <td><?= $tanggal; ?></td>
+                            <td><?= $kinerja->jam_mulai . " - " . $kinerja->jam_selesai; ?></td>
+                            <td><?= $kinerja->kinerja; ?></td>
+                            <td>
+                                <?php if (!empty($kinerja->foto) && file_exists(FCPATH . 'uploads/kinerja/' . $kinerja->foto)): ?>
+                                    <img src="<?= base_url('uploads/kinerja/' . $kinerja->foto); ?>" class="img-preview">
+                                <?php else: ?>
+                                    <small class="text-muted">Tidak ada foto</small>
+                                <?php endif; ?>
+                            </td>
+                            <td>
+                                <?php if ($kinerja->status == 'Belum Validasi'): ?>
+                                    <span class="badge bg-warning">Belum Validasi</span>
+                                <?php elseif ($kinerja->status == 'Disetujui'): ?>
+                                    <span class="badge bg-success">Disetujui</span>
+                                <?php elseif ($kinerja->status == 'Ditolak'): ?>
+                                    <span class="badge bg-danger">Ditolak</span>
+                                <?php endif; ?>
+                            </td>
+                            <td>
+                                <?php if ($kinerja->status == 'Belum Validasi'): ?>
+                                    <button class="btn btn-warning btn-sm btn-edit"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#editModal"
+                                            data-id="<?= $kinerja->id; ?>"
+                                            data-tanggal="<?= $kinerja->tanggal; ?>"
+                                            data-jam-mulai="<?= $kinerja->jam_mulai; ?>"
+                                            data-jam-selesai="<?= $kinerja->jam_selesai; ?>"
+                                            data-kinerja="<?= $kinerja->kinerja; ?>"
+                                            data-foto="<?= base_url('uploads/kinerja/' . $kinerja->foto); ?>"
+                                            >
+                                        Edit
+                                    </button>
+                                    <button class="btn btn-danger btn-sm btn-hapus" data-id="<?= $kinerja->id; ?>">Hapus</button>
+                                <?php else: ?>
+                                    <span class="badge bg-success">Disetujui</span>
+                                <?php endif; ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <tr><td colspan="7" class="text-center">Tidak ada data kinerja.</td></tr>
+                <?php endif; ?>
+            </tbody>
+        </table>
     </div>
+</div>
 
-    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="editModalLabel">Edit Kinerja</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="editForm" action="<?= base_url('user/Dashboard/update_kinerja'); ?>" method="post" enctype="multipart/form-data">
-                        <input type="hidden" name="id" id="editId">
-                        <div class="mb-3">
-                            <label for="editTanggal" class="form-label">Tanggal</label>
-                            <input type="date" class="form-control" id="editTanggal" name="tanggal" readonly>
-                        </div>
-                        <div class="mb-3">
-                            <label for="editJamMulai" class="form-label">Jam Mulai</label>
-                            <input type="time" class="form-control" id="editJamMulai" name="jam_mulai">
-                        </div>
-                        <div class="mb-3">
-                            <label for="editJamSelesai" class="form-label">Jam Selesai</label>
-                            <input type="time" class="form-control" id="editJamSelesai" name="jam_selesai">
-                        </div>
-                        <div class="mb-3">
-                            <label for="editKinerja" class="form-label">Kegiatan</label>
-                            <textarea class="form-control" id="editKinerja" name="kinerja" rows="3"></textarea>
-                        </div>
-                        <div class="mb-3">
-                        <label for="editFoto" class="form-label">Foto (Opsional)</label>
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Edit Kinerja</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" action="<?= base_url('user/Dashboard/update_kinerja'); ?>" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="id" id="editId">
+                    <div class="mb-3">
+                        <label for="editTanggal" class="form-label">Tanggal</label>
+                        <input type="date" class="form-control" id="editTanggal" name="tanggal" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editJamMulai" class="form-label">Jam Mulai</label>
+                        <input type="time" class="form-control" id="editJamMulai" name="jam_mulai">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editJamSelesai" class="form-label">Jam Selesai</label>
+                        <input type="time" class="form-control" id="editJamSelesai" name="jam_selesai">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editKinerja" class="form-label">Kegiatan</label>
+                        <textarea class="form-control" id="editKinerja" name="kinerja" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Foto Saat Ini</label><br>
+                        <img id="currentFotoPreview" src="" alt="Foto Dokumentasi" class="img-preview mb-2 d-block">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editFoto" class="form-label">Foto (Opsional.)</label>
                         <input type="file" class="form-control" id="editFoto" name="foto">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
-                    </form>
-                </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+                </form>
             </div>
         </div>
     </div>
-    <script>
+</div>
+<script>
     $(document).ready(function() {
+        // Inisialisasi DataTables pada tabel dengan ID "kinerjaTable"
+        $('#kinerjaTable').DataTable({
+            "lengthMenu": [ [10, 50, 100, -1], [10, 50, 100, "Semua"] ] // Opsi jumlah data per halaman
+        });
+
         $('.btn-edit').click(function() {
             var id = $(this).data('id');
             var tanggal = $(this).data('tanggal');
             var jamMulai = $(this).data('jam-mulai');
             var jamSelesai = $(this).data('jam-selesai');
             var kinerja = $(this).data('kinerja');
+            var foto = $(this).data('foto');
 
             $('#editId').val(id);
             $('#editTanggal').val(tanggal);
@@ -148,12 +161,15 @@
             $('#editJamSelesai').val(jamSelesai);
             $('#editKinerja').val(kinerja);
 
+            // Tampilkan gambar jika ada
+            if (foto && foto !== '<?= base_url('uploads/kinerja/'); ?>') {
+                $('#currentFotoPreview').attr('src', foto).show();
+            } else {
+                $('#currentFotoPreview').hide();
+            }
             $('#editModal').modal('show');
         });
-    });
-</script>
-<script>
-    $(document).ready(function() {
+
         $('.btn-hapus').click(function() {
             var id = $(this).data('id');
 
@@ -172,6 +188,6 @@
             }
         });
     });
-    </script>
-    </body>
-    </html>
+</script>
+</body>
+</html>

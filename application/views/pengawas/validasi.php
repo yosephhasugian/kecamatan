@@ -86,6 +86,61 @@
             font-style: italic;
             color: #777;
         }
+        .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.select-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.select-container label {
+    min-width: 200px;
+}
+
+.select-container select,
+.select-container button {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    thead tr {
+        display: none; /* Sembunyikan header agar tidak duplikat */
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ccc;
+        padding: 10px;
+    }
+
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+        text-align: left;
+        white-space: nowrap;
+    }
+}
     </style>
 </head>
 <body>
@@ -94,67 +149,68 @@
     <h3>Validasi Kinerja Petugas</h3>
 
     <form method="post" action="<?= base_url('pengawas/index'); ?>">
-        <div class="select-container">
-            <label for="user_id_pegawai">Pilih Pegawai yang akan divalidasi:</label>
-            <select name="user_id_pegawai" id="user_id_pegawai">
-                    <option value="">--Silahkan Pilih Nama--</option>
-                    <?php if (!empty($users)) : ?>
-                        <?php foreach ($users as $user) : ?>
-                            <option value="<?= $user['user_id']; ?>" <?= ($this->input->get('user_id_pegawai') == $user['user_id']) ? 'selected' : ''; ?>>
-                                <?= $user['nama']; ?>
-                            </option>
-                        <?php endforeach; ?>
-                    <?php else : ?>
-                        <option value="">Tidak ada pegawai yang diawasi</option>
-                    <?php endif; ?>
-                </select>
-            <button type="submit" class="btn-validasi">Tampilkan</button>
-        </div>
-    </form>
+    <div class="select-container">
+        <label for="user_id_pegawai">Pilih Pegawai yang akan divalidasi:</label>
+        <select name="user_id_pegawai" id="user_id_pegawai">
+            <option value="">--Silahkan Pilih Nama--</option>
+            <?php if (!empty($users)) : ?>
+                <?php foreach ($users as $user) : ?>
+                    <option value="<?= $user['user_id']; ?>" <?= ($this->input->get('user_id_pegawai') == $user['user_id']) ? 'selected' : ''; ?>>
+                        <?= $user['nama']; ?>
+                    </option>
+                <?php endforeach; ?>
+            <?php else : ?>
+                <option value="">Tidak ada pegawai yang diawasi</option>
+            <?php endif; ?>
+        </select>
+        <button type="submit" class="btn-validasi">Tampilkan</button>
+    </div>
+</form>
 
-    <table>
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Hari / Tanggal</th>
-                <th>Pukul</th>
-                <th>Kegiatan</th>
-                <th>Dokumentasi</th>
-                <th>Status</th>
-                <th>Aksi</th>
-            </tr>
-        </thead>
-        <tbody>
-    <?php if (!empty($kinerja_data)) : $no = 1; ?>
-        <?php foreach ($kinerja_data as $row) : ?>
-            <tr data-id="<?= $row->id; ?>">
-                <td><?= $no++; ?></td>
-                <td><?= date('d-m-Y', strtotime($row->tanggal)); ?></td>
-                <td><?= date('H:i', strtotime($row->jam_mulai)) . " - " . date('H:i', strtotime($row->jam_selesai)); ?></td>
-                <td><?= htmlspecialchars($row->kinerja); ?></td>
-                <td>
-                    <?php if (!empty($row->foto)) : ?>
-                        <img src="<?= base_url('uploads/kinerja/' . $row->foto); ?>" class="img-preview">
-                    <?php else : ?>
-                        <p>Tidak ada foto</p>
-                    <?php endif; ?>
-                </td>
-                <td class="status-cell"><?= $row->status; ?></td>
-                <td class="action-cell">
-                    <?php if ($row->status == 'Belum Validasi') : ?>
-                        <button type="button" data-id="<?= $row->id; ?>" data-status="Disetujui" class="btn-validasi validate-action">Validasi</button>
-                        <button type="button" data-id="<?= $row->id; ?>" data-status="Ditolak" class="btn-tolak validate-action">Tolak</button>
-                    <?php else : ?>
-                        <span class="status-disetujui"><?= $row->status; ?></span>
-                    <?php endif; ?>
-                </td>
-            </tr>
-        <?php endforeach; ?>
-    <?php else : ?>
-        <tr><td colspan="7" class="text-center"><b>Tidak ada data kinerja tersedia</b></td></tr>
-    <?php endif; ?>
-</tbody>
-    </table>
+    <div class="table-responsive">
+<table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Hari / Tanggal</th>
+            <th>Pukul</th>
+            <th>Kegiatan</th>
+            <th>Dokumentasi</th>
+            <th>Status</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php if (!empty($kinerja_data)) : $no = 1; ?>
+            <?php foreach ($kinerja_data as $row) : ?>
+                <tr data-id="<?= $row->id; ?>">
+                    <td data-label="No"><?= $no++; ?></td>
+                    <td data-label="Hari / Tanggal"><?= date('d-m-Y', strtotime($row->tanggal)); ?></td>
+                    <td data-label="Pukul"><?= date('H:i', strtotime($row->jam_mulai)) . " - " . date('H:i', strtotime($row->jam_selesai)); ?></td>
+                    <td data-label="Kegiatan"><?= htmlspecialchars($row->kinerja); ?></td>
+                    <td data-label="Dokumentasi">
+                        <?php if (!empty($row->foto)) : ?>
+                            <img src="<?= base_url('uploads/kinerja/' . $row->foto); ?>" class="img-preview">
+                        <?php else : ?>
+                            <p>Tidak ada foto</p>
+                        <?php endif; ?>
+                    </td>
+                    <td data-label="Status" class="status-cell"><?= $row->status; ?></td>
+                    <td data-label="Aksi" class="action-cell">
+                        <?php if ($row->status == 'Belum Validasi') : ?>
+                            <button type="button" data-id="<?= $row->id; ?>" data-status="Disetujui" class="btn-validasi validate-action">Validasi</button>
+                            <button type="button" data-id="<?= $row->id; ?>" data-status="Ditolak" class="btn-tolak validate-action">Tolak</button>
+                        <?php else : ?>
+                            <span class="status-disetujui"><?= $row->status; ?></span>
+                        <?php endif; ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        <?php else : ?>
+            <tr><td colspan="7" class="text-center no-data"><b>Tidak ada data kinerja tersedia</b></td></tr>
+        <?php endif; ?>
+    </tbody>
+</table>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

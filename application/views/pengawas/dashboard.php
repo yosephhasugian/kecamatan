@@ -94,9 +94,9 @@ $periode_valid = "$nama_bulan $tahun_validasi";
         <td><?= htmlspecialchars($row->jabatan); ?></td>
         <td><?= htmlspecialchars($row->nama_pengawas); ?></td>
         <td class="text-center"><?= $row->jumlah_hari ?? 0; ?> Kegiatan</td>
-        <td class="text-center"><span class="status-disetujui"><?= $row->sudah_validasi ?? 0; ?> Hari</span></td>
-        <td class="text-center"><span class="status-belum"><?= $row->belum_validasi ?? 0; ?> Hari</span></td>
-        <td class="text-center"><span class="status-ditolak"><?= $row->ditolak ?? 0; ?> Hari</span></td>
+        <td class="text-center"><span class="status-disetujui"><?= $row->sudah_validasi ?? 0; ?> Kegiatan</span></td>
+        <td class="text-center"><span class="status-belum"><?= $row->belum_validasi ?? 0; ?> Kegiatan</span></td>
+        <td class="text-center"><span class="status-ditolak"><?= $row->ditolak ?? 0; ?> Kegiatan</span></td>
         <td class="text-center">
             <?php if ($row->jumlah_hari == $row->sudah_validasi) : ?>
                 <span class="status-disetujui">Selesai</span>

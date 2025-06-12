@@ -35,7 +35,7 @@
 <div class="container-fluid">
     <div class="card">
         <div class="card-header bg-primary text-white">
-            <h3 class="card-title">Daftar Pimpinan Unit Pengelola Terminal Pulo Gebang</h3>
+            <h3 class="card-title">Daftar Pimpinan Kecamatan Cempaka Putih</h3>
             <div class="card-tools">
                 <a href="<?= base_url('admin/tambah'); ?>" class="btn btn-success btn-sm">
                     <i class="fas fa-user-plus"></i> Tambah Pimpinan

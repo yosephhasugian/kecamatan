@@ -82,21 +82,39 @@ class Admin extends CI_Controller {
     }
 
     public function simpan_pengawas() {
-        $this->form_validation->set_rules('nama_pengawas', 'nama_pengawas', 'required');
-      
-        
-
+        $this->form_validation->set_rules('nama_pengawas', 'Nama Pengawas', 'required');
+        $this->form_validation->set_rules('nip_pengawas', 'NIP Pengawas', 'required');
+    
         if ($this->form_validation->run() == FALSE) {
-            $this->tambah();
+            $this->tambah(); 
         } else {
+            $user_id = $this->generate_user_id(); // <--- generate otomatis
+    
             $data = [
+                'user_id'       => $user_id,
                 'nama_pengawas' => $this->input->post('nama_pengawas'),
-                'nip_pengawas' => $this->input->post('nip_pengawas'),
-             
+                'nip_pengawas'  => $this->input->post('nip_pengawas')
             ];
+    
             $this->Admin_model->insert_pengawas($data);
             redirect('Admin/index_pengawas');
         }
+    }
+
+    private function generate_user_id() {
+        $this->db->select_max('user_id');
+        $this->db->like('user_id', 'USR'); // filter hanya ID dengan prefix USR
+        $query = $this->db->get('pengawas')->row();
+    
+        if ($query && $query->user_id) {
+            $last_id = $query->user_id;
+            $number = (int) substr($last_id, 3); // ambil angka saja
+            $new_number = $number + 1;
+        } else {
+            $new_number = 1;
+        }
+    
+        return 'USR' . str_pad($new_number, 4, '0', STR_PAD_LEFT); // jadi USR0004 dst.
     }
 
     public function simpan_jabatan() {
@@ -194,6 +212,23 @@ class Admin extends CI_Controller {
             $this->Admin_model->update_pengawas($id, $data);
             redirect('admin/index_pengawas');
         }
+    }
+
+    public function password() {
+        $this->load->model('Dashboard_model'); // Pastikan model dimuat
+        $user_id = $this->session->userdata('user_id'); // Ambil user ID dari session
+        if (!$user_id) {
+            redirect('auth/login'); // Redirect jika belum login
+        }
+        $this->load->model('Pegawai_model');
+       
+        // Ambil data kinerja sesuai user yang login
+        $data['kinerja_data'] = $this->Dashboard_model->get_laporan_by_user($user_id);
+        $data['title'] = "Lihat Kinerja";
+
+        // Load view `dashboard_lihat` untuk user
+        $data['content'] = $this->load->view('admin/password', $data, TRUE);
+        $this->load->view('layouts/main', $data);
     }
     
 }
