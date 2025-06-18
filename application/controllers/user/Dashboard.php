@@ -153,6 +153,12 @@ class Dashboard extends CI_Controller {
         $this->form_validation->set_rules('jam_mulai', 'Jam Mulai', 'required');
         $this->form_validation->set_rules('jam_selesai', 'Jam Selesai', 'required');
         $this->form_validation->set_rules('kinerja', 'Kinerja', 'required');
+
+        // Pastikan field foto ada di $_FILES
+        if (!isset($_FILES['foto'])) {
+            echo json_encode(["status" => "error", "message" => "Error: Tidak ada file foto yang diunggah."]);
+            return;
+        }
     
         // Cek apakah foto diunggah
         if (empty($_FILES['foto']['name'])) {
@@ -161,7 +167,8 @@ class Dashboard extends CI_Controller {
         }
     
         // Cek ukuran file
-        if ($_FILES['foto']['size'] > 5120000) { // 5MB
+        $MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5MB
+        if ($_FILES['foto']['size'] > $MAX_FILE_SIZE_BYTES) { // 10MB
             echo json_encode(["status" => "error", "message" => "File terlalu besar! Maksimal 5MB."]);
             return;
         }
@@ -186,7 +193,7 @@ class Dashboard extends CI_Controller {
         if (!empty($_FILES['foto']['name'])) { // Cek apakah ada file diunggah
             $config['upload_path']   = './uploads/kinerja/'; // Folder penyimpanan
             $config['allowed_types']        = 'jpg|jpeg|png|gif|bmp|tiff|svg|webp|pdf';
-            $config['max_size']      = 40960; // Maksimal 2MB
+            $config['max_size'] = 5 * 1024; // 5MB = 5120 KB
             $config['file_name']     = time() . "_" . $_FILES['foto']['name']; // Nama file unik
     
             $this->load->library('upload', $config); // Load library upload

@@ -101,7 +101,7 @@
   <div class="left-box w-full md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center items-center relative z-10 animate-fade-in-up">
     <!-- Logo aplikasi dengan ikon Font Awesome dan animasi bounce lambat -->
     <div class="login-logo text-6xl text-purple-600 mb-4 animate-bounce-slow">
-      <i class="fas fa-user-circle"></i>
+      <img src="assets/img/jaya_raya.png" alt="User Profile" class="profile-icon">
     </div>
     <!-- Judul aplikasi -->
     <div class="app-title text-3xl font-bold text-gray-800 mb-2">SICEKAT</div>
@@ -157,6 +157,7 @@
        <span class="text-indigo-200">SICEKAT</span>
     </div>
     <p class="mt-4 text-white text-opacity-80 text-center max-w-sm">Kelola kinerja Anda dengan mudah dan efisien.</p>
+     <img src="assets/img/cempaka.jpg" alt="SICEKAT Dashboard Illustration" class="mt-8 max-w-xs md:max-w-sm lg:max-w-md" style="width: 100%; height: auto;">
   </div>
 </div>
 

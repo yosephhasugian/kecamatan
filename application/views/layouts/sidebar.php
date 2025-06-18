@@ -67,8 +67,8 @@ if (isset($role)) {
 
 
 <aside class="main-sidebar sidebar-dark-info elevation-4">
-    <img src="<?= base_url('assets/dist/img/AdminLTELogo.png'); ?>" alt="Admin Logo" style="width: 50px; margin-left: 10px; margin-top: 10px;">
-    <span class="brand-text font-weight-light" style="margin-left: 10px; color: white;">e-Kinerja</span>
+    <img src="<?= base_url('assets/img/jaya_raya.png'); ?>" alt="Admin Logo" style="width: 100px; margin-left: 20px; margin-top: 10px;">
+    <span class="brand-text font-weight-light" style="margin-left: 1px; color: white;">e-Kinerja</span>
     <div class="sidebar">
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">

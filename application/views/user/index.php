@@ -104,6 +104,12 @@
             color: #333 !important; /* Ensure text is visible */
         }
 
+        /* Tambahan style untuk tombol submit yang dinonaktifkan */
+        button[type="submit"]:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
         /* Custom Message Box for alerts (replaces browser's alert) */
         #messageBox {
             position: fixed;
@@ -126,6 +132,12 @@
         #messageBox.show {
             display: block;
             opacity: 1;
+        }
+
+        #messageBox.success { /* Style untuk pesan sukses */
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
         }
 
         /* Responsive adjustments for smaller screens */
@@ -226,7 +238,7 @@
                             <textarea class="form-control" id="kinerja" name="kinerja" rows="3" required></textarea>
                         </div>
                         <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary w-100">Simpan Kinerja</button>
+                        <button type="submit" class="btn btn-primary w-100" id="simpanKinerjaBtn">Simpan Kinerja</button>
                     </form>
                 </div>
             </div>
@@ -258,6 +270,7 @@
         // Function to show a custom message (replaces native alert)
         function showMessage(message, type = 'error') {
             const messageBox = $('#messageBox');
+
             messageBox.removeClass().addClass('message-box'); // Reset classes
             if (type === 'error') {
                 messageBox.css({
@@ -443,7 +456,7 @@
     <script>
     document.getElementById("foto").addEventListener("change", function () {
         let file = this.files[0];
-        let maxSize = 40 * 1024 * 1024; // 40 MB in bytes
+        let maxSize = 5 * 1024 * 1024; // 40 MB in bytes
         let allowedExtensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "svg", "webp", "pdf"];
         let errorText = document.getElementById("fileError");
         let submitBtn = document.querySelector("button[type=submit]");
@@ -466,13 +479,21 @@
             } 
             // If file is valid
             else {
-                errorText.innerText = "";
+                 errorText.innerText = ""; // Bersihkan pesan error
+                errorText.style.color = ''; // Reset warna
                 submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+                submitBtn.style.cursor = 'pointer';
             }
         } else {
-            // If no file is selected, clear error and enable button if other validations pass
+            // Jika tidak ada file yang dipilih (input kosong)
             errorText.innerText = "";
-            submitBtn.disabled = false; // Re-enable, assuming other inputs are valid
+            errorText.style.color = '';
+            // Periksa apakah input required lainnya sudah terisi untuk mengaktifkan tombol
+            // Untuk lebih aman, kita bisa berasumsi jika tidak ada file, tombol tetap aktif jika validasi form lainnya OK.
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = '1';
+            submitBtn.style.cursor = 'pointer';
         }
     });
     </script>
