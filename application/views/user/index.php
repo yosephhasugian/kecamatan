@@ -228,7 +228,7 @@
                         </div>
                         <!-- Upload Foto Input -->
                         <div class="mb-3">
-                            <label for="foto" class="form-label">Upload Foto (JPG, JPEG, PNG, maks 40MB)</label>
+                            <label for="foto" class="form-label">Upload Foto (JPG, JPEG, PNG, maks 5 MB)</label>
                             <input type="file" id="foto" name="foto" class="form-control" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff,.svg,.webp,.pdf" required>
                             <p id="fileError" class="text-danger font-bold mt-2"></p>
                         </div>
@@ -454,49 +454,86 @@
 
     <!-- Script Validasi File -->
     <script>
-    document.getElementById("foto").addEventListener("change", function () {
-        let file = this.files[0];
-        let maxSize = 5 * 1024 * 1024; // 40 MB in bytes
-        let allowedExtensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "svg", "webp", "pdf"];
-        let errorText = document.getElementById("fileError");
-        let submitBtn = document.querySelector("button[type=submit]");
+document.addEventListener('DOMContentLoaded', function() { // Gunakan DOMContentLoaded untuk memastikan elemen ada
+    const fileInput = document.getElementById("foto");
+    const errorText = document.getElementById("fileError");
+    const submitBtn = document.getElementById("simpanKinerjaBtn"); // Menggunakan ID yang spesifik
 
-        if (file) {
-            let fileSize = file.size;
-            let fileExt = file.name.split('.').pop().toLowerCase();
+    // Pastikan ukuran ini konsisten dengan PHP (5MB)
+    const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB in bytes
+    const allowedExtensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "svg", "webp", "pdf"];
+
+    // Fungsi untuk mengupdate status tombol dan pesan error
+    function updateFileValidationStatus() {
+        if (fileInput.files.length > 0) {
+            const file = fileInput.files[0];
+            const fileSize = file.size;
+            const fileExt = file.name.split('.').pop().toLowerCase();
 
             // Check file size
-            if (fileSize > maxSize) {
-                errorText.innerText = "❌ File terlalu besar! Maksimal 40MB.";
-                this.value = ""; // Clear selected file
+            if (fileSize > MAX_FILE_SIZE_BYTES) {
+                errorText.innerText = "❌ File terlalu besar! Maksimal 5MB.";
+                errorText.style.color = 'red';
                 submitBtn.disabled = true;
+                submitBtn.style.opacity = '0.6';
+                submitBtn.style.cursor = 'not-allowed';
             } 
             // Check file extension
             else if (!allowedExtensions.includes(fileExt)) {
                 errorText.innerText = "❌ Format file tidak diperbolehkan! Hanya JPG, JPEG, PNG, GIF, BMP, TIFF, SVG, WEBP, PDF.";
-                this.value = ""; // Clear selected file
+                errorText.style.color = 'red';
                 submitBtn.disabled = true;
+                submitBtn.style.opacity = '0.6';
+                submitBtn.style.cursor = 'not-allowed';
             } 
             // If file is valid
             else {
-                 errorText.innerText = ""; // Bersihkan pesan error
-                errorText.style.color = ''; // Reset warna
+                errorText.innerText = ""; // Bersihkan pesan error
+                errorText.style.color = '';
                 submitBtn.disabled = false;
                 submitBtn.style.opacity = '1';
                 submitBtn.style.cursor = 'pointer';
             }
         } else {
             // Jika tidak ada file yang dipilih (input kosong)
-            errorText.innerText = "";
-            errorText.style.color = '';
-            // Periksa apakah input required lainnya sudah terisi untuk mengaktifkan tombol
-            // Untuk lebih aman, kita bisa berasumsi jika tidak ada file, tombol tetap aktif jika validasi form lainnya OK.
-            submitBtn.disabled = false;
-            submitBtn.style.opacity = '1';
-            submitBtn.style.cursor = 'pointer';
+            // Ini akan dijalankan saat modal dibuka dan input file kosong
+            errorText.innerText = "Foto wajib diunggah!"; // Pesan bahwa foto wajib diunggah
+            errorText.style.color = 'red'; // Warna merah
+            submitBtn.disabled = true; // Nonaktifkan tombol karena foto wajib
+            submitBtn.style.opacity = '0.6';
+            submitBtn.style.cursor = 'not-allowed';
         }
+    }
+
+    // Event listener saat file dipilih
+    fileInput.addEventListener("change", updateFileValidationStatus);
+
+    // Event listener saat modal disembunyikan (untuk mereset state)
+    $('#eventModal').on('hidden.bs.modal', function () {
+        // Reset form saat modal ditutup
+        $('#eventForm')[0].reset();
+        // Bersihkan pesan error dan aktifkan kembali tombol (jika tidak ada file terpilih, fungsi di atas akan menonaktifkan lagi)
+        errorText.innerText = "";
+        errorText.style.color = '';
+        submitBtn.disabled = false; 
+        submitBtn.style.opacity = '1';
+        submitBtn.style.cursor = 'pointer';
     });
-    </script>
+
+    // Panggil fungsi ini saat modal ditampilkan (sebelumnya di bagian select fullcalendar)
+    $('#eventModal').on('shown.bs.modal', function () {
+        // Panggil updateFileValidationStatus saat modal terbuka
+        // Ini akan memastikan tombol dinonaktifkan jika input foto kosong saat modal pertama kali dibuka
+        updateFileValidationStatus(); 
+    });
+
+
+    // ... (bagian script FullCalendar & Event Handling yang sudah dimodifikasi)
+    // Pastikan bagian ini sudah di update seperti yang saya berikan sebelumnya
+    // Perhatikan bagian 'success' dan 'error' di AJAX submit
+    // Dan juga pastikan di `select` fullcalendar Anda mereset form dan tombol
+});
+</script>
 
 </body>
 </html>
