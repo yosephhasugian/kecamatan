@@ -2455,3 +2455,81 @@ DEBUG - 2025-06-18 17:16:56 --> Session class already loaded. Second attempt ign
 INFO - 2025-06-18 17:16:56 --> Model "Dashboard_model" initialized
 INFO - 2025-06-18 17:16:56 --> Final output sent to browser
 DEBUG - 2025-06-18 17:16:56 --> Total execution time: 0.0584
+INFO - 2025-06-18 17:17:38 --> Config Class Initialized
+INFO - 2025-06-18 17:17:38 --> Hooks Class Initialized
+DEBUG - 2025-06-18 17:17:38 --> UTF-8 Support Enabled
+INFO - 2025-06-18 17:17:38 --> Utf8 Class Initialized
+INFO - 2025-06-18 17:17:38 --> URI Class Initialized
+INFO - 2025-06-18 17:17:38 --> Router Class Initialized
+INFO - 2025-06-18 17:17:38 --> Output Class Initialized
+INFO - 2025-06-18 17:17:38 --> Security Class Initialized
+DEBUG - 2025-06-18 17:17:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-06-18 17:17:38 --> Input Class Initialized
+INFO - 2025-06-18 17:17:38 --> Language Class Initialized
+INFO - 2025-06-18 17:17:38 --> Loader Class Initialized
+INFO - 2025-06-18 17:17:38 --> Helper loaded: url_helper
+INFO - 2025-06-18 17:17:38 --> Helper loaded: file_helper
+INFO - 2025-06-18 17:17:38 --> Database Driver Class Initialized
+DEBUG - 2025-06-18 17:17:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-06-18 17:17:38 --> Session: Class initialized using 'files' driver.
+INFO - 2025-06-18 17:17:38 --> Helper loaded: form_helper
+INFO - 2025-06-18 17:17:38 --> Form Validation Class Initialized
+INFO - 2025-06-18 17:17:38 --> Controller Class Initialized
+DEBUG - 2025-06-18 17:17:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-06-18 17:17:38 --> Model "Dashboard_model" initialized
+INFO - 2025-06-18 17:17:38 --> Model "Pegawai_model" initialized
+INFO - 2025-06-18 17:17:38 --> File loaded: C:\xampp\htdocs\kecamatan\application\views\user/index.php
+INFO - 2025-06-18 17:17:38 --> File loaded: C:\xampp\htdocs\kecamatan\application\views\layouts/navbar.php
+INFO - 2025-06-18 17:17:38 --> File loaded: C:\xampp\htdocs\kecamatan\application\views\layouts/sidebar.php
+INFO - 2025-06-18 17:17:38 --> File loaded: C:\xampp\htdocs\kecamatan\application\views\layouts/footer.php
+INFO - 2025-06-18 17:17:38 --> File loaded: C:\xampp\htdocs\kecamatan\application\views\layouts/main.php
+INFO - 2025-06-18 17:17:38 --> Final output sent to browser
+DEBUG - 2025-06-18 17:17:38 --> Total execution time: 0.0417
+INFO - 2025-06-18 17:17:39 --> Config Class Initialized
+INFO - 2025-06-18 17:17:39 --> Hooks Class Initialized
+DEBUG - 2025-06-18 17:17:39 --> UTF-8 Support Enabled
+INFO - 2025-06-18 17:17:39 --> Utf8 Class Initialized
+INFO - 2025-06-18 17:17:39 --> URI Class Initialized
+INFO - 2025-06-18 17:17:39 --> Router Class Initialized
+INFO - 2025-06-18 17:17:39 --> Output Class Initialized
+INFO - 2025-06-18 17:17:39 --> Security Class Initialized
+DEBUG - 2025-06-18 17:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-06-18 17:17:39 --> Input Class Initialized
+INFO - 2025-06-18 17:17:39 --> Language Class Initialized
+INFO - 2025-06-18 17:17:39 --> Loader Class Initialized
+INFO - 2025-06-18 17:17:39 --> Config Class Initialized
+INFO - 2025-06-18 17:17:39 --> Hooks Class Initialized
+INFO - 2025-06-18 17:17:39 --> Helper loaded: url_helper
+INFO - 2025-06-18 17:17:39 --> Helper loaded: file_helper
+DEBUG - 2025-06-18 17:17:39 --> UTF-8 Support Enabled
+INFO - 2025-06-18 17:17:39 --> Utf8 Class Initialized
+INFO - 2025-06-18 17:17:39 --> URI Class Initialized
+INFO - 2025-06-18 17:17:39 --> Database Driver Class Initialized
+INFO - 2025-06-18 17:17:39 --> Router Class Initialized
+INFO - 2025-06-18 17:17:39 --> Output Class Initialized
+INFO - 2025-06-18 17:17:39 --> Security Class Initialized
+DEBUG - 2025-06-18 17:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-06-18 17:17:39 --> Input Class Initialized
+INFO - 2025-06-18 17:17:39 --> Language Class Initialized
+INFO - 2025-06-18 17:17:39 --> Loader Class Initialized
+INFO - 2025-06-18 17:17:39 --> Helper loaded: url_helper
+INFO - 2025-06-18 17:17:39 --> Helper loaded: file_helper
+DEBUG - 2025-06-18 17:17:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2025-06-18 17:17:39 --> Database Driver Class Initialized
+INFO - 2025-06-18 17:17:39 --> Session: Class initialized using 'files' driver.
+INFO - 2025-06-18 17:17:39 --> Helper loaded: form_helper
+INFO - 2025-06-18 17:17:39 --> Form Validation Class Initialized
+INFO - 2025-06-18 17:17:39 --> Controller Class Initialized
+DEBUG - 2025-06-18 17:17:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2025-06-18 17:17:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-06-18 17:17:39 --> Model "Dashboard_model" initialized
+INFO - 2025-06-18 17:17:39 --> Final output sent to browser
+DEBUG - 2025-06-18 17:17:39 --> Total execution time: 0.0539
+INFO - 2025-06-18 17:17:39 --> Session: Class initialized using 'files' driver.
+INFO - 2025-06-18 17:17:39 --> Helper loaded: form_helper
+INFO - 2025-06-18 17:17:39 --> Form Validation Class Initialized
+INFO - 2025-06-18 17:17:39 --> Controller Class Initialized
+DEBUG - 2025-06-18 17:17:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2025-06-18 17:17:39 --> Model "Dashboard_model" initialized
+INFO - 2025-06-18 17:17:39 --> Final output sent to browser
+DEBUG - 2025-06-18 17:17:39 --> Total execution time: 0.0476

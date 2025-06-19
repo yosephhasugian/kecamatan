@@ -101,7 +101,7 @@
   <div class="left-box w-full md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center items-center relative z-10 animate-fade-in-up">
     <!-- Logo aplikasi dengan ikon Font Awesome dan animasi bounce lambat -->
     <div class="login-logo text-6xl text-purple-600 mb-4 animate-bounce-slow">
-      <img src="assets/img/jaya_raya.png" alt="User Profile" class="profile-icon">
+      <img src="../assets/img/jaya_raya.png" alt="User Profile" class="profile-icon">
     </div>
     <!-- Judul aplikasi -->
     <div class="app-title text-3xl font-bold text-gray-800 mb-2">SICEKAT</div>
@@ -150,14 +150,19 @@
     </form>
   </div>
 
-  <!-- Bagian KANAN: Visual Ilustrasi Dinamis -->
-  <!-- Tersembunyi di mobile (hidden md:flex), menampilkan gradien animasi dan teks -->
-  <div class="right-box hidden md:flex md:w-1/2 relative flex-col justify-center items-center p-12">
-    <div class="text-white text-4xl font-extrabold text-center leading-snug">
-       <span class="text-indigo-200">SICEKAT</span>
-    </div>
-    <p class="mt-4 text-white text-opacity-80 text-center max-w-sm">Kelola kinerja Anda dengan mudah dan efisien.</p>
-     <img src="assets/img/cempaka.jpg" alt="SICEKAT Dashboard Illustration" class="mt-8 max-w-xs md:max-w-sm lg:max-w-md" style="width: 100%; height: auto;">
+<!-- Bagian KANAN: Visual Ilustrasi Dinamis -->
+<div class="right-box hidden md:flex md:w-1/2 relative items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('../assets/img/cempaka.jpg');">
+  <!-- Overlay gelap untuk kontras -->
+  <div class="absolute inset-0 bg-gradient-to-br from-indigo-1200/70 to-purple-600/70 backdrop-blur-sm z-10"></div>
+
+  <!-- Konten di atas overlay -->
+  <div class="relative z-20 text-center text-white px-10">
+    <h2 class="text-4xl font-extrabold leading-tight drop-shadow-lg">
+      Selamat Datang di<br><span class="text-indigo-200">SICEKAT</span>
+    </h2>
+    <p class="mt-4 text-white text-opacity-90 text-sm max-w-md mx-auto leading-relaxed">
+      Sistem Informasi Cempaka Putih untuk E-Kinerja PJLP yang modern, transparan, dan efisien.
+    </p>
   </div>
 </div>
 
