@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/dist/css/adminlte.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/dist/css/custom.css'); ?>">
     <!-- jQuery -->
-	<script src="<?= base_url('assetes/jquery.min.js') ?>"></script>
+	<script src="<?= base_url('assets/jquery.min.js') ?>"></script>
 
     <style>
         /* ---- BACKGROUND UTAMA ---- */
