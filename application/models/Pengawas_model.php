@@ -48,6 +48,7 @@ public function get_kinerja_by_user_id($user_id) {
     return $query->result();
 }
 
+
 public function count_kinerja_by_user_id_and_month($user_id, $month, $year) {
     $this->db->where('user_id', $user_id);
     $this->db->where('MONTH(tanggal)', $month);
