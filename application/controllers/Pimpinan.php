@@ -32,10 +32,9 @@ class Pimpinan extends CI_Controller {
         }
         $data['rekap'] = $this->Pimpinan_model->get_rekap_kinerja($bulan, $tahun);
 
-        
+        $data['hide_sidebar'] = true;
 
-        $data['content'] = $this->load->view('pimpinan/dashboard', $data, true);
-        $this->load->view('layouts/main', $data);
+$this->load->view('pimpinan/dashboard', $data);
     }
 
     public function detail_kinerja($user_id) {

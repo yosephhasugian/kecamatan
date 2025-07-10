@@ -174,29 +174,24 @@
             </div>
             
             <button type="submit" class="btn-login w-full bg-gradient-to-r from-purple-600 to-indigo-700 
-                                            hover:from-purple-700 hover:to-indigo-800 text-white font-semibold py-3 
-                                            rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                                         hover:from-purple-700 hover:to-indigo-800 text-white font-semibold py-3 
+                                         rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Sign In
             </button>
         </form>
     </div>
 
-    <!-- Bagian KANAN: Visual Ilustrasi Dinamis -->
-<div class="hidden md:flex md:w-1/2 relative items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('assets/img/kantor.jpeg');">
-  <!-- Overlay gelap untuk kontras -->
+    <div class="hidden md:flex md:w-1/2 relative items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('assets/img/kantor.jpeg');">
+    <div class="absolute inset-0 bg-gradient-to-br from-indigo-1200/70 to-purple-600/70 backdrop-blur-sm z-10"></div>
 
-  <!-- Overlay gelap untuk kontras -->
-  <div class="absolute inset-0 bg-gradient-to-br from-indigo-1200/70 to-purple-600/70 backdrop-blur-sm z-10"></div>
-
-  <!-- Konten di atas overlay -->
-  <div class="relative z-20 text-center text-white px-10">
-    <h2 class="text-4xl font-extrabold leading-tight drop-shadow-lg">
-      Selamat Datang di<br><span class="text-indigo-200">SICEKAT</span>
-    </h2>
-    <p class="mt-4 text-white text-opacity-90 text-sm max-w-md mx-auto leading-relaxed">
-      Sistem Informasi Cempaka Putih untuk E-Kinerja PJLP yang modern, transparan, dan efisien.
-    </p>
-  </div>
+    <div class="relative z-20 text-center text-white px-10">
+        <h2 class="text-4xl font-extrabold leading-tight drop-shadow-lg">
+            Selamat Datang di<br><span class="text-indigo-200">SICEKAT</span>
+        </h2>
+        <p class="mt-4 text-white text-opacity-90 text-sm max-w-md mx-auto leading-relaxed">
+            Sistem Informasi Cempaka Putih untuk E-Kinerja PJLP yang modern, transparan, dan efisien.
+        </p>
+    </div>
 </div>
 
 </body>
