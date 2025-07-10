@@ -140,7 +140,7 @@ if (isset($role)) {
                     <li class="nav-item">
                         <a href="<?= base_url('pengawas/dashboard'); ?>" class="nav-link">
                             <i class="nav-icon fas fa-check-circle"></i>
-                            <p>Dashboard</p>
+                            <p>Cek</p>
                         </a>
                     </li>
                 <?php endif; ?>

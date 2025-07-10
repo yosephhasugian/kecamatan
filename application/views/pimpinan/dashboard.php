@@ -115,6 +115,12 @@
         <div class="col-md-2">
             <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Tampilkan</button>
         </div>
+<div class="col-md-2">
+    <a href="<?= base_url('pimpinan/export_excel?bulan=' . (isset($_GET['bulan']) ? $_GET['bulan'] : '') . '&tahun=' . (isset($_GET['tahun']) ? $_GET['tahun'] : '')); ?>" class="btn btn-success">
+    <i class="fas fa-file-excel"></i> Export to Excel
+</a>
+</div>
+
     </div>
 </form>
 

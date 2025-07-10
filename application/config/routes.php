@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['admin/dashboard'] = 'admin/dashboard';
 $route['pimpinan/index'] = 'pimpinan/index';
 $route['pengawas/index'] = 'pengawas/index';
+
 $route['user/dashboard'] = 'user/dashboard';
 $route['user/dashboard/print_laporan'] = 'user/dashboard/print_laporan';
 
