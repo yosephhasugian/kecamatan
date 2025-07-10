@@ -163,8 +163,6 @@
                         </td>
                     </tr>
                     <?php endforeach; ?>
-                    <?php else : ?>
-                    <tr><td colspan="10" class="text-center"><b>Tidak ada data tersedia</b></td></tr>
                     <?php endif; ?>
                 </tbody>
             </table>

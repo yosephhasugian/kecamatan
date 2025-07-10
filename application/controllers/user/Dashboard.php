@@ -145,89 +145,113 @@ class Dashboard extends CI_Controller {
         echo json_encode($data);
     }
     
-    
-    public function simpan_kinerja() {
-        $this->load->library('form_validation');
-    
-        $this->form_validation->set_rules('tanggal', 'Tanggal', 'required');
-        $this->form_validation->set_rules('jam_mulai', 'Jam Mulai', 'required');
-        $this->form_validation->set_rules('jam_selesai', 'Jam Selesai', 'required');
-        $this->form_validation->set_rules('kinerja', 'Kinerja', 'required');
+public function simpan_kinerja() {
+header('Content-Type: application/json');
+    $this->load->library('form_validation');
 
-        // Pastikan field foto ada di $_FILES
-        if (!isset($_FILES['foto'])) {
-            echo json_encode(["status" => "error", "message" => "Error: Tidak ada file foto yang diunggah."]);
-            return;
-        }
-    
-        // Cek apakah foto diunggah
-        if (empty($_FILES['foto']['name'])) {
-            echo json_encode(["status" => "error", "message" => "Foto wajib diunggah!"]);
-            return;
-        }
-    
-        // Cek ukuran file
-        $MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5MB
-        if ($_FILES['foto']['size'] > $MAX_FILE_SIZE_BYTES) { // 10MB
-            echo json_encode(["status" => "error", "message" => "File terlalu besar! Maksimal 5MB."]);
-            return;
-        }
-    
-        if ($this->form_validation->run() == FALSE) {
-            echo json_encode(["status" => "error", "message" => validation_errors()]);
-            return;
-        }
-    
-        // **1. Cek Durasi Waktu**
-        $jam_mulai = $this->input->post('jam_mulai');
-        $jam_selesai = $this->input->post('jam_selesai');
-        $startTime = strtotime($jam_mulai);
-        $endTime = strtotime($jam_selesai);
-        $durasi = ($endTime - $startTime) / 3600; // Durasi dalam jam (perbedaan dalam detik dibagi 3600 untuk jam)
-    
-        // Cek apakah durasi lebih dari 8 dan kurang dari 10 jam
-       
-    
-        // **2. PROSES UPLOAD GAMBAR**
-        $foto = NULL;
-        if (!empty($_FILES['foto']['name'])) { // Cek apakah ada file diunggah
-            $config['upload_path']   = './uploads/kinerja/'; // Folder penyimpanan
-            $config['allowed_types']        = 'jpg|jpeg|png|gif|bmp|tiff|svg|webp|pdf';
-            $config['max_size'] = 5 * 1024; // 5MB = 5120 KB
-            $config['file_name']     = time() . "_" . $_FILES['foto']['name']; // Nama file unik
-    
-            $this->load->library('upload', $config); // Load library upload
-    
-            if ($this->upload->do_upload('foto')) {
-                $foto = $this->upload->data('file_name'); // Ambil nama file
-            } else {
-                echo json_encode(["status" => "error", "message" => $this->upload->display_errors()]);
-                return;
-            }
-        }
-    
-        // **3. SIMPAN DATA KE DATABASE**
-        $data = [
-            'tanggal'    => $this->input->post('tanggal'),
-            'jam_mulai'  => $this->input->post('jam_mulai'),
-            'jam_selesai'=> $this->input->post('jam_selesai'),
-            'kinerja'    => $this->input->post('kinerja'),
-            'user_id'    => $this->session->userdata("user_id"),
-            'status'     => "Belum Validasi",
-            'foto'       => $foto // Simpan nama file ke database
-        ];
-    
-        log_message('debug', 'Data yang akan disimpan: ' . json_encode($data));
-    
-        if ($this->Dashboard_model->insert_kinerja($data)) {
-            log_message('debug', 'Data berhasil disimpan.');
-            echo json_encode(["status" => "success"]);
+    // Set validation rules for required fields
+    $this->form_validation->set_rules('tanggal', 'Tanggal', 'required');
+    $this->form_validation->set_rules('jam_mulai', 'Jam Mulai', 'required');
+    $this->form_validation->set_rules('jam_selesai', 'Jam Selesai', 'required');
+    $this->form_validation->set_rules('kinerja', 'Kinerja', 'required');
+
+    // --- File Upload Pre-checks ---
+
+    // Ensure 'foto' field exists in $_FILES
+    if (!isset($_FILES['foto'])) {
+        echo json_encode(["status" => "error", "message" => "Error: Tidak ada file foto yang diunggah."]);
+        return;
+    }
+
+    // Check if a file was actually uploaded (not just an empty field)
+    if (empty($_FILES['foto']['name'])) {
+        echo json_encode(["status" => "error", "message" => "Foto wajib diunggah!"]);
+        return;
+    }
+
+    // Define max file size for early checks (consistent with upload config)
+    $MAX_FILE_SIZE_KB = 5 * 1024; // 5MB in KB
+    $MAX_FILE_SIZE_BYTES = $MAX_FILE_SIZE_KB * 1024; // 5MB in bytes
+
+    // Check file size against the defined limit
+    if ($_FILES['foto']['size'] > $MAX_FILE_SIZE_BYTES) {
+        echo json_encode(["status" => "error", "message" => "Ukuran file terlalu besar! Maksimal 5MB."]);
+        return;
+    }
+
+    // --- Form Validation Check ---
+
+    if ($this->form_validation->run() == FALSE) {
+        log_message('debug', 'Error validation: ' . validation_errors()); // Log specific validation errors
+        echo json_encode(["status" => "error", "message" => validation_errors()]);
+        return;
+    }
+
+    // --- 1. Check Duration ---
+    // Ensure jam_mulai and jam_selesai are treated as proper time strings
+    $jam_mulai = $this->input->post('jam_mulai');
+    $jam_selesai = $this->input->post('jam_selesai');
+
+    $startTime = strtotime($jam_mulai);
+    $endTime = strtotime($jam_selesai);
+
+    // Validate that strtotime successfully converted the times
+    if ($startTime === false || $endTime === false) {
+        echo json_encode(["status" => "error", "message" => "Format Jam Mulai atau Jam Selesai tidak valid."]);
+        return;
+    }
+
+    $durasi_seconds = $endTime - $startTime;
+    $durasi_hours = $durasi_seconds / 3600; // Duration in hours
+
+    // Check if duration is within the specified range (e.g., 8 to 10 hours)
+    if ($durasi_hours < 7 || $durasi_hours > 22) {
+       // echo json_encode(["status" => "error", "message" => "Durasi kinerja harus antara 8 hingga 10 jam.", "durasi"=>$durasi_hours]);
+       // return;
+    }
+
+    // --- 2. File Upload Process ---
+    $foto = NULL; // Initialize foto variable
+
+    // Check if a file was provided for upload (already done in pre-checks, but good to keep this logic here for consistency with the upload library)
+    if (!empty($_FILES['foto']['name'])) {
+        $config['upload_path']   = './uploads/kinerja/'; // Folder for storing uploads
+        $config['allowed_types'] = 'jpg|jpeg|png|gif|bmp|tiff|svg|webp|pdf';
+        $config['max_size']      = $MAX_FILE_SIZE_KB; // Use the consistent KB value (5MB)
+        $config['file_name']     = time() . "_" . $_FILES['foto']['name']; // Unique file name
+
+        $this->load->library('upload', $config); // Load upload library with config
+
+        if ($this->upload->do_upload('foto')) {
+            $foto = $this->upload->data('file_name'); // Get the uploaded file's name
         } else {
-            log_message('error', 'Gagal menyimpan data.');
-            echo json_encode(["status" => "error", "message" => "Gagal menyimpan data."]);
+            log_message('error', 'Error uploading file: ' . $this->upload->display_errors()); // Log specific upload errors
+            echo json_encode(["status" => "error", "message" => "Gagal mengunggah foto: " . $this->upload->display_errors()]);
+            return;
         }
     }
 
+    // --- 3. Save Data to Database ---
+    $data = [
+        'tanggal'     => $this->input->post('tanggal'),
+        'jam_mulai'   => $jam_mulai, // Use the cleaned time values
+        'jam_selesai' => $jam_selesai, // Use the cleaned time values
+        'kinerja'     => $this->input->post('kinerja'),
+        'user_id'     => $this->session->userdata("user_id"), // Ensure user_id is set in session
+        'status'      => "Belum Validasi", // Default status
+        'foto'        => $foto // Store the uploaded file name
+    ];
+
+    log_message('debug', 'Data yang akan disimpan: ' . json_encode($data));
+
+    if ($this->Dashboard_model->insert_kinerja($data)) {
+        log_message('debug', 'Data berhasil disimpan.');
+        echo json_encode(["status" => "success", "message" => "Data Berhasil Disimpan"]);
+    } else {
+        log_message('error', 'Gagal menyimpan data ke database.');
+        echo json_encode(["status" => "error", "message" => "Gagal menyimpan data."]);
+    }
+}
     
 
     public function get_kinerja_status() {
@@ -284,7 +308,7 @@ class Dashboard extends CI_Controller {
                 'jumlah' => (int) $status_count['jumlah']
             ];
         }
-    
+    header('Content-Type: application/json');
         // Gabungkan semua data ke dalam respons
         $response = array_merge([
             "total_aktivitas" => $total_aktivitas,

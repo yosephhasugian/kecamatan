@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="<?= base_url('assets/dist/css/custom.css'); ?>">
     <!-- jQuery -->
 	<script src="<?= base_url('assets/jquery.min.js') ?>"></script>
+	<script src="<?= base_url('assets/jquery-ui.min.js') ?>"></script>
+	<script src="<?= base_url('assets/moment.min.js') ?>"></script>
+	<script src="<?= base_url('assets/fullcalendar.min.js') ?>"></script>
+	<script src="<?= base_url('assets/id.js') ?>"></script>
 
     <style>
         /* ---- BACKGROUND UTAMA ---- */
@@ -80,7 +84,15 @@
     
     <?php $this->load->view('layouts/navbar'); ?>
 
-    <?php $this->load->view('layouts/sidebar'); ?>
+    <?php
+      $disable_sidebar = false;
+      if (isset($hide_sidebar) && $hide_sidebar) {
+        $disable_sidebar = true;
+        }
+        ?>
+    <?php 
+
+    $this->load->view('layouts/sidebar'); ?>
 
     <div class="content-wrapper">
         <section class="content">

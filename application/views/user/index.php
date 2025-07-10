@@ -23,6 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <!-- **IMPORTANT**: jQuery UI Touch Punch for touch support on jQuery UI elements like selectable days in FullCalendar -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ui.touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <link rel="stylesheet" href="<?= base_url('assets/sweetalert2.css') ?>" />
 
     <style>
         /* Basic body styling */
@@ -245,6 +246,8 @@
         </div>
     </div>
 
+    <script src="<?= base_url('assets/sweetalert2.all.min.js') ?>"></script>
+
     <!-- Custom Message Box for alerts (replaces browser's alert) -->
     <div id="messageBox"></div>
 
@@ -263,7 +266,6 @@
         });
     });
     </script>
-
     <!-- Script FullCalendar & Event Handling -->
     <script>
     $(document).ready(function () {
@@ -389,14 +391,35 @@
                 processData: false, // Important: Don't process data (for FormData)
                 contentType: false, // Important: Don't set content type (for FormData)
                 success: function (response) {
-                    showMessage("Data berhasil disimpan!", 'success');
+                console.log(response);
+                     const msg = response.message ? response.message : (response.status == "success" ? "Berhasil Menyimpan data" : "Gagal Menyimpan Data");
+        
+                    if (response.status && response.status == 'success'){
                     form[0].reset(); // Reset the form
                     $('#eventModal').modal('hide'); // Hide the modal
                     $('#calendar').fullCalendar('refetchEvents'); // Refresh calendar events
                     updateStatusCounts(); // Update statistics after saving
+                    Swal.fire({
+                          icon: "success",
+                          title: "success",
+                          text: msg,
+                        });
+                    
+                    } else {
+                     Swal.fire({
+                          icon: "error",
+                          title: "Error",
+                          text: msg ,
+                        });
+                    }
                 },
                 error: function () {
                     showMessage("Gagal menyimpan data.", 'error');
+                    Swal.fire({
+                          icon: "error",
+                          title: "Oops...",
+                          text: "Gagal menyimpan data.",
+                        });
                 },
                 complete: function () {
                     submitButton.prop("disabled", false); // Re-enable submit button

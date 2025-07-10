@@ -100,13 +100,13 @@
   <!-- Menggunakan Tailwind untuk layout responsif, padding, warna background, shadow, dan animasi -->
   <div class="left-box w-full md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center items-center relative z-10 animate-fade-in-up">
     <!-- Logo aplikasi dengan ikon Font Awesome dan animasi bounce lambat -->
-    <div class="login-logo text-6xl text-purple-600 mb-4 animate-bounce-slow">
+    <div class="left-box w-full md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center items-center relative z-10 animate-fade-in-up">
       <img src="../assets/img/jaya_raya.png" alt="User Profile" class="profile-icon">
     </div>
     <!-- Judul aplikasi -->
     <div class="app-title text-3xl font-bold text-gray-800 mb-2">SICEKAT</div>
     <!-- Subjudul aplikasi -->
-    <div class="app-subtitle text-base text-gray-600 mb-6 text-center">Sistem E-Kinerja PJLP Cempaka Putih</div>
+    <div class="app-subtitle text-base text-gray-600 mb-6 text-center">Sistem Informasi Cempaka Putih Kinerja Terpadu</div>
     <!-- Judul form login -->
     <h4 class="text-2xl font-semibold text-gray-700 mb-3">Login</h4>
     <!-- Deskripsi form login -->
@@ -151,7 +151,9 @@
   </div>
 
 <!-- Bagian KANAN: Visual Ilustrasi Dinamis -->
-<div class="right-box hidden md:flex md:w-1/2 relative items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('../assets/img/cempaka.jpg');">
+<div class="hidden md:flex md:w-1/2 relative items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('../assets/bg.jpeg');">
+  <!-- Overlay gelap untuk kontras -->
+
   <!-- Overlay gelap untuk kontras -->
   <div class="absolute inset-0 bg-gradient-to-br from-indigo-1200/70 to-purple-600/70 backdrop-blur-sm z-10"></div>
 
