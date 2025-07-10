@@ -127,47 +127,38 @@ class Pengawas extends CI_Controller {
       
     public function dashboard() {
         $data['title'] = "Validasi Kinerja Petugas";
-        $this->load->model('Pegawai_model');
         
-        // Ambil ID Pengawas dari session
-        $user_id = $this->session->userdata('user_id');
-
-        // Pastikan user_id ada dalam session
-        if (!$user_id) {
-            redirect('auth/login'); // Redirect ke login jika tidak ada user_id
-            return;
-        }
-
-        // Cari ID Pengawas berdasarkan user_id
-        $id_pengawas = $this->Pengawas_model->getPengawasId($user_id);
-
-        if (!$id_pengawas) {
-            echo "<pre style='color: red;'>❌ ERROR: User ini bukan pengawas atau tidak ditemukan!</pre>";
-            return;
-        }
-
-        // Ambil daftar pegawai yang diawasi oleh pengawas
-        $data['users'] = $this->Pengawas_model->getUsersByPengawas($id_pengawas);
-
-        if (empty($data['users'])) {
-            echo "<pre style='color: red;'>❌ ERROR: Tidak ada pegawai yang diawasi oleh pengawas ini!</pre>";
-            return;
-        }
-        // Ambil periode (bulan dan tahun saat ini)
+        $data['kinerja_data'] = $this->Pengawas_model->get_laporan();
+        $this->load->model('Pegawai_model');
+        $this->load->model('Pengawas_model');
+        $data['periode'] = date('F Y'); // Periode saat ini (Bulan Tahun)
+       // Ambil bulan & tahun dari form (GET)
         $bulan = $this->input->get('bulan');
         $tahun = $this->input->get('tahun');
-        $data['periode'] = $bulan . ' ' . $tahun;
+
+        // Format periode untuk ditampilkan
+        $periode = "";
+        if (!empty($bulan) && !empty($tahun)) {
+            $periode = date('F Y', mktime(0, 0, 0, $bulan, 1, $tahun));
+        }
+        $data['rekap'] = $this->Pengawas_model->get_rekap_kinerja($bulan, $tahun);
 
         
-        $bulan = $this->input->get('bulan') ?? date('m', strtotime('-1 months'));
-        $tahun = $this->input->get('tahun') ?? date('Y', strtotime('-1 months'));
-        $data['rekap'] = $this->Pengawas_model->get_kinerja($id_pengawas, $bulan, $tahun);
-        // Load view dengan data
+
         $data['content'] = $this->load->view('pengawas/dashboard', $data, true);
         $this->load->view('layouts/main', $data);
     }
     
+    public function detail_kinerja($user_id) {
+        $this->load->model('Pengawas_model');
+        $this->load->model('Pegawai_model');
+        $data['title'] = "Detail Kinerja Petugas";
+        $data['kinerja_data'] = $this->Pengawas_model->get_kinerja_by_user_id($user_id);
     
+
+        $data['content'] = $this->load->view('pengawas/tampil', $data, true);
+        $this->load->view('layouts/main', $data);
+    }
     
 }
 ?>

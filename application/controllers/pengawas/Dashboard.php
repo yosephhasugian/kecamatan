@@ -75,6 +75,21 @@ public function validasi()
     $data['content'] = $this->load->view('pengawas/validasi', $data, TRUE);
     $this->load->view('layouts/main', $data);
 }
+
+public function dashboard()
+{
+    $this->load->model('User_kinerja'); // Pastikan model dimuat
+   
+    // Ambil data laporan kinerja
+    $data['kinerja_data'] = $this->User_kinerja->get_laporan();
+
+    
+    // Load view dengan data lengkap
+   
+
+    $data['content'] = $this->load->view('pengawas/dashboard', $data, TRUE);
+    $this->load->view('layouts/main', $data);
+}
     
 }
 

@@ -183,5 +183,37 @@ public function update_status($id, $status)
         echo "<pre style='color: blue;'>" . print_r($columns, true) . "</pre>";
     }
 
+    public function get_rekap_kinerja($bulan, $tahun) {
+        $this->db->select('
+                pegawai.user_id,
+                pegawai.nama, 
+                pegawai.jabatan, 
+                pegawai.id_pengawas,
+                pengawas.nama_pengawas,
+                jabatan.nama_jabatan,
+                COUNT(kinerja.id) as jumlah_hari,
+                SUM(CASE WHEN kinerja.status = "Disetujui" THEN 1 ELSE 0 END) as sudah_validasi,
+                SUM(CASE WHEN kinerja.status = "Belum Validasi" THEN 1 ELSE 0 END) as belum_validasi,
+                SUM(CASE WHEN kinerja.status = "Ditolak" THEN 1 ELSE 0 END) as ditolak
+        ');
+        $this->db->from('pegawai');
+        $this->db->join('pengawas', 'pengawas.id = pegawai.id_pengawas', 'left');
+        $this->db->join('kinerja', 'kinerja.user_id = pegawai.user_id', 'left');
+        $this->db->join('jabatan', 'jabatan.id = pegawai.jabatan', 'left');
+    
+        // Filter hanya data kinerja berdasarkan bulan & tahun
+        if (!empty($bulan) && !empty($tahun)) {
+            $this->db->where('MONTH(kinerja.tanggal)', $bulan);
+            $this->db->where('YEAR(kinerja.tanggal)', $tahun);
+        }
+    
+        $this->db->group_by('pegawai.user_id');
+    
+        $query = $this->db->get();
+        
+        return $query->result();
+    }
+    
+
 }
 ?>
