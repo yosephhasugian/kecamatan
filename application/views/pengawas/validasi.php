@@ -148,6 +148,53 @@
 <div class="container">
     <h3>Validasi Kinerja Petugas</h3>
 
+        <?php
+// Hitung summary otomatis dari $kinerja_data
+$sudah_validasi = $belum_validasi = $ditolak = 0;
+
+if (!empty($kinerja_data)) {
+    foreach ($kinerja_data as $r) {
+        if ($r->status === 'Disetujui') {
+            $sudah_validasi++;
+        } elseif ($r->status === 'Ditolak') {
+            $ditolak++;
+        } else {
+            $belum_validasi++;
+        }
+    }
+}
+
+// Jika semua status sudah Disetujui, maka dianggap "selesai"
+$selesai = (!empty($kinerja_data) && count($kinerja_data) == $sudah_validasi) ? 1 : 0;
+?>
+
+<div class="row text-center mb-4">
+    <div class="col-md-3 mb-2">
+        <div class="bg-success text-white rounded p-3 shadow-sm">
+            <h5>✅ Sudah Validasi</h5>
+            <h3><?= $sudah_validasi; ?></h3>
+        </div>
+    </div>
+    <div class="col-md-3 mb-2">
+        <div class="bg-warning text-dark rounded p-3 shadow-sm">
+            <h5>⚠️ Belum Validasi</h5>
+            <h3><?= $belum_validasi; ?></h3>
+        </div>
+    </div>
+    <div class="col-md-3 mb-2">
+        <div class="bg-danger text-white rounded p-3 shadow-sm">
+            <h5>❌ Ditolak</h5>
+            <h3><?= $ditolak; ?></h3>
+        </div>
+    </div>
+    <div class="col-md-3 mb-2">
+        <div class="bg-primary text-white rounded p-3 shadow-sm">
+            <h5>🏁 Selesai</h5>
+            <h3><?= $selesai; ?></h3>
+        </div>
+    </div>
+</div>
+
     <form method="post" action="<?= base_url('pengawas/index'); ?>">
     <div class="select-container">
         <label for="user_id_pegawai">Pilih Pegawai yang akan divalidasi:</label>

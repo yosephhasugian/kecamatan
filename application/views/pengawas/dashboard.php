@@ -79,11 +79,12 @@
     <div class="table-container">
         <h3 class="text-center"><i class="fas fa-chart-line"></i> LAPORAN KINERJA PETUGAS</h3>
 
+       
         <!-- Tampilkan periode hanya jika user sudah memilih -->
         <?php if (!empty($periode)) : ?>
             <p><strong>Periode:</strong> <?= $periode; ?></p>
         <?php endif; ?>
-
+    
         <hr>
 
         <h4><i class="fas fa-clipboard-list"></i> Pilih Bulan dan Tahun </h4>
