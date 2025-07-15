@@ -101,20 +101,20 @@
                     foreach ($kinerja_data as $row) : ?>
                         <tr>
                             <td><?= $no++; ?></td>
-                            <td><?= $row['tanggal']; ?></td>
-                            <td><?= $row['jam_mulai']; ?></td>
-                            <td><?= $row['jam_selesai']; ?></td>
-                            <td><?= $row['kinerja']; ?></td>
+                            <td><?= $row->tanggal; ?></td>
+                            <td><?= $row->jam_mulai; ?></td>
+                            <td><?= $row->jam_selesai; ?></td>
+                            <td><?= $row->kinerja; ?></td>
                             <td>
-                                <?php if (!empty($row['foto']) && file_exists(FCPATH . 'uploads/kinerja/' . $row['foto'])): ?>
-                                    <img src="<?= base_url('uploads/kinerja/' . $row['foto']); ?>" class="img-preview">
+                                <?php if (!empty($row->foto) && file_exists(FCPATH . 'uploads/kinerja/' . $row->foto)): ?>
+                                    <img src="<?= base_url('uploads/kinerja/' . $row->foto); ?>" class="img-preview">
                                 <?php else: ?>
                                     <img src="<?= base_url('assets/img/default.png'); ?>" class="img-preview">
                                 <?php endif; ?>
                             </td>
                             <td>
                                 <?php 
-                                $status = !empty($row['status']) ? $row['status'] : 'Pending'; 
+                                $status = !empty($row->status) ? $row->status : 'Pending'; 
                                 ?>
                                 <span class="status-badge 
                                     <?= ($status == 'Disetujui') ? 'status-disetujui' : (($status == 'Pending') ? 'status-pending' : 'status-ditolak'); ?>">
