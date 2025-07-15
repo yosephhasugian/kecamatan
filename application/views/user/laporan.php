@@ -112,7 +112,7 @@
                                     $imageData = base64_encode(file_get_contents($image_path));
                                     $src = 'data:image/jpeg;base64,' . $imageData;
                                 ?>
-                                    <img src="<?= $src ?>" alt="Dokumentasi" class="img-preview">
+                                    <img src="<?= base_url('uploads/kinerja/'. $row->foto) ?>" alt="Dokumentasi" class="img-preview">
                                 <?php } else { ?>
                                     <p>Gambar tidak tersedia</p>
                                 <?php } ?>
