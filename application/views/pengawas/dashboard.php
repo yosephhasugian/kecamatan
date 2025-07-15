@@ -146,10 +146,10 @@
                         <td><?= htmlspecialchars($row->nama); ?></td>
                         <td><?= htmlspecialchars($row->nama_jabatan); ?></td>
                         <td><?= htmlspecialchars($row->nama_pengawas); ?></td>
-                        <td><?= $row->jumlah_hari ?? 0; ?> Hari</td>
-                        <td><span class="badge bg-success"><?= $row->sudah_validasi ?? 0; ?> Hari</span></td>
-                        <td><span class="badge bg-warning"><?= $row->belum_validasi ?? 0; ?> Hari</span></td>
-                        <td><span class="badge bg-danger"><?= $row->ditolak ?? 0; ?> Hari</span></td>
+                        <td><?= $row->jumlah_hari ?? 0; ?> Kegiatan</td>
+                        <td><span class="badge bg-success"><?= $row->sudah_validasi ?? 0; ?> Kegiatan</span></td>
+                        <td><span class="badge bg-warning"><?= $row->belum_validasi ?? 0; ?> Kegiatan</span></td>
+                        <td><span class="badge bg-danger"><?= $row->ditolak ?? 0; ?> Kegiatan</span></td>
                         <td>
                             <?php if ($row->jumlah_hari == $row->sudah_validasi) : ?>
                                 <span class="badge bg-primary">Selesai</span>
