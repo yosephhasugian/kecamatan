@@ -3,4 +3,8 @@ application/logs
 application/logs/*
 uploads
 uploads/*
-uploads/
+/uploads/*
+/application/config/*
+application/config/*
+application/config
+/application/logs/*
